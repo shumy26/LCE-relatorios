@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.28)  28 NOV 2024 22:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.28)  28 NOV 2024 22:52
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1268,13 +1268,34 @@ Package pdftex.def Info: rgadicoas/rgadicoa.png  used on input line 131.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[3 <./figuras/figura1.jpg> <./rgadicoas/rgadicoa.png>]
+<figuras/figura3.jpg, id=55, 963.6pt x 236.38312pt>
+File: figuras/figura3.jpg Graphic file (type jpg)
+<use figuras/figura3.jpg>
+Package pdftex.def Info: figuras/figura3.jpg  used on input line 163.
+(pdftex.def)             Requested size: 289.08223pt x 70.91548pt.
+<rgadicoas/rgadicoa2.png, id=56, 358.33875pt x 338.76563pt>
+File: rgadicoas/rgadicoa2.png Graphic file (type png)
+<use rgadicoas/rgadicoa2.png>
+Package pdftex.def Info: rgadicoas/rgadicoa2.png  used on input line 177.
+(pdftex.def)             Requested size: 215.0049pt x 203.26093pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[3 <./figuras/figura1.jpg> <./rgadicoas/rgadicoa.png>] [4] [5] (Rel4_G5.aux)
+[4 <./figuras/figura3.jpg> <./rgadicoas/rgadicoa2.png>]
+<rgadicoas/rgadicoa3.png, id=65, 356.0803pt x 335.00156pt>
+File: rgadicoas/rgadicoa3.png Graphic file (type png)
+<use rgadicoas/rgadicoa3.png>
+Package pdftex.def Info: rgadicoas/rgadicoa3.png  used on input line 211.
+(pdftex.def)             Requested size: 213.64983pt x 201.00247pt.
+ [5 <./rgadicoas/rgadicoa3.png>]
+<rgadicoas/rgadicoa4.png, id=74, 357.58594pt x 339.51843pt>
+File: rgadicoas/rgadicoa4.png Graphic file (type png)
+<use rgadicoas/rgadicoa4.png>
+Package pdftex.def Info: rgadicoas/rgadicoa4.png  used on input line 234.
+(pdftex.def)             Requested size: 214.5532pt x 203.71262pt.
+ [6 <./rgadicoas/rgadicoa4.png>] [7] (Rel4_G5.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -1283,10 +1304,10 @@ Package rerunfilecheck Info: File `Rel4_G5.out' has not changed.
 (rerunfilecheck)             Checksum: 09C4C2B772B0A99F2D5881DEFEC15A3C;484.
  ) 
 Here is how much of TeX's memory you used:
- 42833 strings out of 475248
- 1024161 string characters out of 5757813
- 1932785 words of memory out of 5000000
- 63742 multiletter control sequences out of 15000+600000
+ 42885 strings out of 475248
+ 1025508 string characters out of 5757813
+ 1928785 words of memory out of 5000000
+ 63788 multiletter control sequences out of 15000+600000
  564070 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,11n,89p,744b,903s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1300,9 +1321,9 @@ ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/shumy/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/shumy/AppDa
 ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/sh
 umy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on Rel4_G5.pdf (5 pages, 160260 bytes).
+Output written on Rel4_G5.pdf (7 pages, 287727 bytes).
 PDF statistics:
- 109 PDF objects out of 1000 (max. 8388607)
- 17 named destinations out of 1000 (max. 500000)
- 63 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 131 PDF objects out of 1000 (max. 8388607)
+ 23 named destinations out of 1000 (max. 500000)
+ 83 words of extra memory for PDF output out of 10000 (max. 10000000)
 

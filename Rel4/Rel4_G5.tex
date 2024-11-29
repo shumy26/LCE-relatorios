@@ -136,6 +136,7 @@ Gráfico 1: Resposta do circuito RC
 \end{center}
 
 
+
 \vspace{5pt}
 \begin{table}[h]
 \centering
@@ -154,6 +155,34 @@ $V_1(10\tau)$ &  & 1,04V & \\\hline
 
 
 
+\newpage
+Em seguida, remonta-se o circuito na forma da Figura 2, tornando-se um circuito RLC.
+
+\begin{table}[h]
+\centering
+\includegraphics[scale=0.3]{figuras/figura3}
+\end{table}
+
+\begin{center}
+Figura 2: Circuito de segunda ordem
+\end{center}
+
+% cálculos relevantes aqui
+
+Com esses valores e usando o osciloscópio do Elvis, produz-se o Gráfico 2, de onde podem ser medidos os valores que serão preenchidos na Tabela 3. 
+
+
+\begin{table}[h]
+\centering
+\includegraphics[scale=0.6]{rgadicoas/rgadicoa2}
+\end{table}
+
+\begin{center}
+Gráfico 2: Resposta do circuito RLC
+\end{center}
+
+%mais cálculos relevantes
+
 
 \vspace{5pt}
 \begin{table}[h]
@@ -170,8 +199,31 @@ $V_1(10\tau_1)$ &  & 1,04V & \\\hline
 \caption*{Tabela 3: Tensões para circuito RLC}
 \end{table}
 
-\vspace{5pt}
+
+\newpage
+Após isso, o resistor $R_1$ é trocado por $R_2=47\Omega$ e todo o procedimento é análogo ao anterior, obtendo os resultados expostos no Gráfico 3 e na Tabela 4.
+
+%cálculos aqui!!!!!
+%!!!!!!!!!!!!!!!!!
+%!!!!!!!!!!!!!!!!!!!!!
+%!!!!!!!!!!!!!!!!!!!!!!!!
+%!!!!!!!!!!!!!!!!!!!!!
+
+Porém, é notável uma diferença na resposta, que pode ser vista melhor no Gráfico 4, cuja escala de tempo é ampliada para que a visualização seja mais fácil.
+
+
 \begin{table}[h]
+\centering
+\includegraphics[scale=0.6]{rgadicoas/rgadicoa3}
+\end{table}
+
+\begin{center}
+Gráfico 3: Resposta do circuito RLC com resistência menor
+\end{center}
+
+
+\vspace{5pt}
+\begin{table}[hb]
 \centering
 \begin{tabular}{|p{5cm}|c|c|c|}
 \hline
@@ -183,8 +235,33 @@ Tempo para $V_1$ atingir seu valor máximo a partir de uma borda de subida da on
 \end{table}
 
 \newpage
+\begin{table}[h]
+\centering
+\includegraphics[scale=0.6]{rgadicoas/rgadicoa4}
+\end{table}
+
+\begin{center}
+Gráfico 4: Resposta do circuito RLC com $R_2$ (ampliado)
+\end{center}
+
+A escala de tempo ampliada permite observar com maior clareza os efeitos do amortecimento reduzido sobre a forma da onda. Nota-se um aumento significativo na amplitude das oscilações, indicando uma aproximação ao comportamento subamortecido, devido aos polos serem imaginários.
+
+O tempo necessário para atingir o pico de tensão é menor, enquanto o valor de tensão máxima (1,41 V) foi superior ao do circuito RLC com resistência maior. Esse comportamento é esperado, pois a menor resistência resulta em maior energia disponível para oscilações antes de sua dissipação. 
+
+
+
+
+
+
+\newpage
 \section{Conclusão}
 
+\parag Os experimentos realizados demonstraram com clareza o comportamento dinâmico de circuitos de primeira e segunda ordem quando submetidos a sinais alternados. No caso do circuito RC, a constante de tempo calculada foi consistente com os dados experimentais, validando a teoria de resposta exponencial para cargas e descargas de capacitores. Para o circuito RLC, foi possível observar fenômenos como ressonância e amortecimento, destacando a influência dos valores de resistência sobre a estabilidade e a frequência da resposta.
+
+A redução da resistência no circuito RLC resultou em uma resposta mais acentuada, evidenciando a diminuição do amortecimento e reforçando a relação entre os parâmetros circuitais e o comportamento oscilatório. 
+
+
+\vspace{30pt}
 \section{Bibliografia}
 \begin{itemize}
 \item HALLIDAY, D.; RESNICK, R.; WALKER, J. Fundamentos de Física. 10. ed. v. 3. Rio de Janeiro: LTC, 2016.
