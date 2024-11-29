@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.28)  28 NOV 2024 22:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.28)  28 NOV 2024 23:00
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1287,13 +1287,13 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <rgadicoas/rgadicoa3.png, id=65, 356.0803pt x 335.00156pt>
 File: rgadicoas/rgadicoa3.png Graphic file (type png)
 <use rgadicoas/rgadicoa3.png>
-Package pdftex.def Info: rgadicoas/rgadicoa3.png  used on input line 211.
+Package pdftex.def Info: rgadicoas/rgadicoa3.png  used on input line 217.
 (pdftex.def)             Requested size: 213.64983pt x 201.00247pt.
  [5 <./rgadicoas/rgadicoa3.png>]
 <rgadicoas/rgadicoa4.png, id=74, 357.58594pt x 339.51843pt>
 File: rgadicoas/rgadicoa4.png Graphic file (type png)
 <use rgadicoas/rgadicoa4.png>
-Package pdftex.def Info: rgadicoas/rgadicoa4.png  used on input line 234.
+Package pdftex.def Info: rgadicoas/rgadicoa4.png  used on input line 240.
 (pdftex.def)             Requested size: 214.5532pt x 203.71262pt.
  [6 <./rgadicoas/rgadicoa4.png>] [7] (Rel4_G5.aux)
  ***********
@@ -1321,7 +1321,7 @@ ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/shumy/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/shumy/AppDa
 ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/sh
 umy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on Rel4_G5.pdf (7 pages, 287727 bytes).
+Output written on Rel4_G5.pdf (7 pages, 288313 bytes).
 PDF statistics:
  131 PDF objects out of 1000 (max. 8388607)
  23 named destinations out of 1000 (max. 500000)
