@@ -99,10 +99,10 @@ O objetivo do experimento foi investigar o comportamento desses circuitos quando
 \begin{tabular}{|c|c|c|c|}
 \hline
 Grandeza & Valor nominal & Valor medido & Erro (\%) \\\hline
-C & 47nF & 46,58nF & \\    \hline
-L & 1mH & 0,8694mH & \\    \hline
-$R_1$ & 1k$\Omega$ & 0,986k$\Omega$ & \\\hline
-$R_2$ & 47$\Omega$ & 46,424$\Omega$ & \\\hline
+C & 47nF & 46,58nF & 0,90\\    \hline
+L & 1mH & 0,8694mH & 13,06\\    \hline
+$R_1$ & 1k$\Omega$ & 0,986k$\Omega$ & 1,40\\\hline
+$R_2$ & 47$\Omega$ & 46,424$\Omega$ & 1,23\\\hline
 \end{tabular}
 \caption*{Tabela 1: Componentes}
 \end{table}
@@ -149,11 +149,11 @@ O gráfico apresenta a resposta $V_1$ do capacitor quando comparada à entrada $
 \begin{tabular}{|c|c|c|c|}
 \hline
 Tensão & Valor nominal (V) & Valor medido (V) & Erro (\%) \\\hline
-$V_1(0)$ & -1V & -976,53mV & \\    \hline
-$V_1(\tau)$ & 0,264 V & 281,17mV & \\    \hline
-$V_1(2\tau)$ & 0,729 V & 700,40mV & \\\hline
-$V_1(3\tau)$ & 0,900 V & 910,00mV & \\\hline
-$V_1(10\tau)$ & 0,999V & 1,04V & \\\hline
+$V_1(0)$ & -1V & -976,53mV &2,35\\    \hline
+$V_1(\tau)$ & 0,264 V & 281,17mV &6,50 \\    \hline
+$V_1(2\tau)$ & 0,729 V & 700,40mV &3,92 \\\hline
+$V_1(3\tau)$ & 0,900 V & 910,00mV &1,11 \\\hline
+$V_1(10\tau)$ & 0,999V & 1,04V &4,10 \\\hline
 \end{tabular}
 \caption*{Tabela 2: Tensões para circuito RC}
 \end{table}
@@ -211,7 +211,7 @@ Como $V_1(t)=V_1(c)Ae^{-\frac{t}{\tau_1}}+Be^{-\frac{t}{\tau_2}}$, encontramos A
 \[\frac{A}{\tau_1}+\frac{B}{\tau_2}=0\]
 \[A+B=-2\]
 
-Que significa que A=-2,04 e B=0,04. Com esses dados, de forma análoga ao que já foi feito previamente, encontram-se os valores colocados na Tabela 2.
+Que significa que A=-2,04 e B=0,04. Com esses dados, de forma análoga ao que já foi feito previamente, encontram-se os valores colocados na Tabela 3.
 
 \vspace{5pt}
 \begin{table}[h]
@@ -219,28 +219,27 @@ Que significa que A=-2,04 e B=0,04. Com esses dados, de forma análoga ao que j�
 \begin{tabular}{|c|c|c|c|}
 \hline
 Tensão & Valor nominal (V) & Valor medido (V) & Erro (\%) \\\hline
-$V_1(0)$ & -1 & -976,53mV & \\    \hline
-$V_1(\tau_1)$ & 0,250V & 197,32mV & \\    \hline
-$V_1(2\tau_1)$ & 0,724V & 700,40mV & \\\hline
-$V_1(3\tau_1)$ & 0,898V & 910,02mV & \\\hline
-$V_1(10\tau_1)$ & 0,999V & 1,04V & \\\hline
+$V_1(0)$ & -1 & -976,53mV & 2,35\\    \hline
+$V_1(\tau_1)$ & 0,250V & 197,32mV &21,07 \\    \hline
+$V_1(2\tau_1)$ & 0,724V & 700,40mV &3,26\\\hline
+$V_1(3\tau_1)$ & 0,898V & 910,02mV &1,34 \\\hline
+$V_1(10\tau_1)$ & 0,999V & 1,04V &4,10 \\\hline
 \end{tabular}
 \caption*{Tabela 3: Tensões para circuito RLC}
 \end{table}
 
 
-
 Após isso, o resistor $R_1$ é trocado por $R_2=47\Omega$ e todo o procedimento é análogo ao anterior, obtendo os resultados expostos no Gráfico 3 e na Tabela 4.
 
-%cálculos aqui!!!!!
-%!!!!!!!!!!!!!!!!!
-%!!!!!!!!!!!!!!!!!!!!!
-%!!!!!!!!!!!!!!!!!!!!!!!!
-%!!!!!!!!!!!!!!!!!!!!!
+Como somente a resistência mudou, a frequência natural é a mesma. Portanto, pelas equações Y e Z, temos que:
+
+\[\omega_n'=145864,9915 Hz,\hspace{10pt}\zeta'=0,332Np/s\]
+
+Com esses valores encontra-se $\tau_1=(2,28\cdot10^{-6}+j6,466\cdot10^{-6}) s$ e $\tau_2=(2,28\cdot10^{-6}-j6,466\cdot10^{-6}) s$, portanto, $V_1(t)=V_1)c_+(Ccos(\omega_dt)+Dsen(\omega_dt))e^{-\zeta t}$, e de forma análoga ao procedimento anterior, encontra-se C e D usando as condições iniciais para definir que C=-2, D=0, ou seja, $V_1(t)=1-2cos(\omega_dt)e^{-\zeta t}$. Com essa função, é calculado o seu valor máximo que é de 2,999986V
 
 Porém, é notável uma diferença na resposta, que pode ser vista melhor no Gráfico 4, cuja escala de tempo é ampliada para que a visualização seja mais fácil.
 
-
+\newpage
 \begin{table}[h]
 \centering
 \includegraphics[scale=0.6]{rgadicoas/rgadicoa3}
@@ -250,7 +249,17 @@ Porém, é notável uma diferença na resposta, que pode ser vista melhor no Gr�
 Gráfico 3: Resposta do circuito RLC com resistência menor
 \end{center}
 
+
+
+
+
 No Gráfico 3, observa-se a resposta $V_1$ do capacitor no circuito RLC série para o caso em que $R=47\Omega$. Nesse cenário, $\zeta$ é menor que $\omega_n$, resultando em um regime de subamortecimento. Isso provoca uma resposta oscilatória, com amplitude decrescente exponencialmente, gerando os picos observados próximos às transições de $V_s$. Além disso, assim como nos casos anteriores, para $t\approx5\tau$, $V_1$ converge para $V_s.$
+
+
+
+
+
+
 
 \vspace{5pt}
 \begin{table}[hb]
@@ -258,8 +267,8 @@ No Gráfico 3, observa-se a resposta $V_1$ do capacitor no circuito RLC série p
 \begin{tabular}{|p{5cm}|c|c|c|}
 \hline
 Grandeza & Valor nominal & Valor medido & Erro (\%) \\\hline
-Tempo para $V_1$ atingir seu valor máximo a partir de uma borda de subida da onda quadrada &  & 23,20$\mu$s & \\    \hline
-\centering Valor máximo de $V_1$ &  & 1,41V & \\    \hline
+Tempo para $V_1$ atingir seu valor máximo a partir de uma borda de subida da onda quadrada & 21,54$\mu$s & 23,20$\mu$s &7,71 \\    \hline
+\centering Valor máximo de $V_1$ & 2,999986V & 1,41V & 53\\    \hline
 \end{tabular}
 \caption*{Tabela 4: Circuito RLC com resistência menor}
 \end{table}
