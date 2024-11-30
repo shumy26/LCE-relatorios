@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.28)  29 NOV 2024 22:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.28)  29 NOV 2024 23:29
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1270,30 +1270,29 @@ File: figuras/figura3.jpg Graphic file (type jpg)
 <use figuras/figura3.jpg>
 Package pdftex.def Info: figuras/figura3.jpg  used on input line 169.
 (pdftex.def)             Requested size: 289.08223pt x 70.91548pt.
-<rgadicoas/rgadicoa2.png, id=56, 358.33875pt x 338.76563pt>
+ [4 <./rgadicoas/rgadicoa.png> <./figuras/figura3.jpg>]
+<rgadicoas/rgadicoa2.png, id=64, 358.33875pt x 338.76563pt>
 File: rgadicoas/rgadicoa2.png Graphic file (type png)
 <use rgadicoas/rgadicoa2.png>
 Package pdftex.def Info: rgadicoas/rgadicoa2.png  used on input line 186.
 (pdftex.def)             Requested size: 215.0049pt x 203.26093pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[4 <./rgadicoas/rgadicoa.png> <./figuras/figura3.jpg>] [5 <./rgadicoas/rgadicoa
-2.png>]
+ [5 <./rgadicoas/rgadicoa2.png>]
 <rgadicoas/rgadicoa3.png, id=73, 356.0803pt x 335.00156pt>
 File: rgadicoas/rgadicoa3.png Graphic file (type png)
 <use rgadicoas/rgadicoa3.png>
-Package pdftex.def Info: rgadicoas/rgadicoa3.png  used on input line 238.
+Package pdftex.def Info: rgadicoas/rgadicoa3.png  used on input line 246.
 (pdftex.def)             Requested size: 213.64983pt x 201.00247pt.
  [6 <./rgadicoas/rgadicoa3.png>]
 <rgadicoas/rgadicoa4.png, id=81, 357.58594pt x 339.51843pt>
 File: rgadicoas/rgadicoa4.png Graphic file (type png)
 <use rgadicoas/rgadicoa4.png>
-Package pdftex.def Info: rgadicoas/rgadicoa4.png  used on input line 261.
+Package pdftex.def Info: rgadicoas/rgadicoa4.png  used on input line 270.
 (pdftex.def)             Requested size: 214.5532pt x 203.71262pt.
- [7 <./rgadicoas/rgadicoa4.png>]
-[8] (Rel4_G5.aux)
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[7] [8 <./rgadicoas/rgadicoa4.png>] (Rel4_G5.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -1302,13 +1301,13 @@ Package rerunfilecheck Info: File `Rel4_G5.out' has not changed.
 (rerunfilecheck)             Checksum: 09C4C2B772B0A99F2D5881DEFEC15A3C;484.
  ) 
 Here is how much of TeX's memory you used:
- 42888 strings out of 475248
- 1025576 string characters out of 5757813
+ 42889 strings out of 475248
+ 1025584 string characters out of 5757813
  1929785 words of memory out of 5000000
- 63790 multiletter control sequences out of 15000+600000
+ 63791 multiletter control sequences out of 15000+600000
  564070 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,11n,89p,744b,907s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 83i,11n,89p,744b,909s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\shumy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1000.pk><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx10.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/publ
@@ -1319,13 +1318,14 @@ ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/shumy/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/shumy/App
 Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/s
 humy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
-/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.
+/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.
 pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
-m/cmsy10.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
-msfonts/cm/cmsy7.pfb>
-Output written on Rel4_G5.pdf (8 pages, 320655 bytes).
+m/cmr7.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmsy7.pfb>
+Output written on Rel4_G5.pdf (8 pages, 333396 bytes).
 PDF statistics:
- 150 PDF objects out of 1000 (max. 8388607)
+ 155 PDF objects out of 1000 (max. 8388607)
  24 named destinations out of 1000 (max. 500000)
  83 words of extra memory for PDF output out of 10000 (max. 10000000)
 

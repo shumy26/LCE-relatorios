@@ -141,7 +141,7 @@ Sabendo a fórmula da resposta total para a tensão de um capacitor conectado em
 Gráfico 1: Resposta do circuito RC
 \end{center}
 
-
+O gráfico apresenta a resposta $V_1$ do capacitor quando comparada à entrada $_s$ do sistema para um dado tempo t. Nessa ótica, é notável o comportamento exponencial de $V_1$ após cada variação de $V_s$. Isso ocorre devido ao período de carregamento do capacitor, que segue uma exponencial, estabilizando-se após aproximadamente $t=5\tau$, em que t é suficientemente grande para que a exponencial se aproxime indistinguivelmente de zero.
 
 \vspace{5pt}
 \begin{table}[h]
@@ -180,7 +180,7 @@ Figura 2: Circuito de segunda ordem
 
 Com esses valores e usando o osciloscópio do Elvis, produz-se o Gráfico 2, de onde podem ser medidos os valores que serão preenchidos na Tabela 3. 
 
-
+\newpage
 \begin{table}[h]
 \centering
 \includegraphics[scale=0.6]{rgadicoas/rgadicoa2}
@@ -189,6 +189,8 @@ Com esses valores e usando o osciloscópio do Elvis, produz-se o Gráfico 2, de 
 \begin{center}
 Gráfico 2: Resposta do circuito RLC
 \end{center}
+
+No Gráfico 2, observa-se a resposta $V_1$ do capacitor associado em série no circuito RLC representado na Figura 2. Nesse caso, R é suficientemente grande para que $\zeta$ seja maior que $\omega_n$. Assim, o circuito opera em regime de amortecimento supercrítico, apresentando um comportamento exponencial decrescente, similar ao caso do circuito RC anterior, convergindo para $V_n$ aproximadamente em $t=5\tau$
 
 Para o circuito de segunda ordem RLC com a resistência $R_1$, a fim de calcular a frequência natural $\omega_n$ e o fator de amortecimento $\zeta$ do circuito, usamos as fórmulas:
 
@@ -204,6 +206,12 @@ Com isso são calculados os dois valores de $\tau$,
 \[\tau = \frac{\zeta\pm\sqrt{\zeta^2-1}}{\omega_n}\]
 \[\implies \tau_1=4,84\cdot10^{-5}, \tau_2=9,72\cdot10^{-7}\]
 
+Como $V_1(t)=V_1(c)Ae^{-\frac{t}{\tau_1}}+Be^{-\frac{t}{\tau_2}}$, encontramos A e B usando as condições iniciais $V_1(0)$ e $\frac{d}{dt}V_1(0)$, obtendo como resultado o sistema simples:
+
+\[\frac{A}{\tau_1}+\frac{B}{\tau_2}=0\]
+\[A+B=-2\]
+
+Que significa que A=-2,04 e B=0,04. Com esses dados, de forma análoga ao que já foi feito previamente, encontram-se os valores colocados na Tabela 2.
 
 \vspace{5pt}
 \begin{table}[h]
@@ -211,17 +219,17 @@ Com isso são calculados os dois valores de $\tau$,
 \begin{tabular}{|c|c|c|c|}
 \hline
 Tensão & Valor nominal (V) & Valor medido (V) & Erro (\%) \\\hline
-$V_1(0)$ &  & -976,53mV & \\    \hline
-$V_1(\tau_1)$ &  & 197,32mV & \\    \hline
-$V_1(2\tau_1)$ &  & 700,40mV & \\\hline
-$V_1(3\tau_1)$ &  & 910,02mV & \\\hline
-$V_1(10\tau_1)$ &  & 1,04V & \\\hline
+$V_1(0)$ & -1 & -976,53mV & \\    \hline
+$V_1(\tau_1)$ & 0,250V & 197,32mV & \\    \hline
+$V_1(2\tau_1)$ & 0,724V & 700,40mV & \\\hline
+$V_1(3\tau_1)$ & 0,898V & 910,02mV & \\\hline
+$V_1(10\tau_1)$ & 0,999V & 1,04V & \\\hline
 \end{tabular}
 \caption*{Tabela 3: Tensões para circuito RLC}
 \end{table}
 
 
-\newpage
+
 Após isso, o resistor $R_1$ é trocado por $R_2=47\Omega$ e todo o procedimento é análogo ao anterior, obtendo os resultados expostos no Gráfico 3 e na Tabela 4.
 
 %cálculos aqui!!!!!
@@ -242,6 +250,7 @@ Porém, é notável uma diferença na resposta, que pode ser vista melhor no Gr�
 Gráfico 3: Resposta do circuito RLC com resistência menor
 \end{center}
 
+No Gráfico 3, observa-se a resposta $V_1$ do capacitor no circuito RLC série para o caso em que $R=47\Omega$. Nesse cenário, $\zeta$ é menor que $\omega_n$, resultando em um regime de subamortecimento. Isso provoca uma resposta oscilatória, com amplitude decrescente exponencialmente, gerando os picos observados próximos às transições de $V_s$. Além disso, assim como nos casos anteriores, para $t\approx5\tau$, $V_1$ converge para $V_s.$
 
 \vspace{5pt}
 \begin{table}[hb]
