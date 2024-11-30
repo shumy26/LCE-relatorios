@@ -82,7 +82,7 @@ O objetivo do experimento foi investigar o comportamento desses circuitos quando
 
 	\begin{itemize}
 	\item National Instruments Elvis II
-	\item 1 capacitor de 47n$C$
+	\item 1 capacitor de 47n$F$
 	\item 1 indutor de 1m$H$
 	\item 1 resistor de 1k$\Omega$
 	\item 1 resistor de 47$\Omega$
@@ -123,9 +123,15 @@ $\tau$ é calculado usando a fórmula $\tau = R\cdot C$, o que resulta no valor 
 Com isso, podem ser usados os cursores do software do Elvis para fazer a medição em momentos específicos como $t=\tau, t=2\tau, t=3\tau$ e $t=10\tau$ e preencher essas informações na Tabela 2, enquanto a forma da resposta da tensão $V_1$ pode ser vista no Gráfico 1 (A onda quadrada em preto mais escuro é a tensão $V_0$ e a que está em um cinza mais claro é $V_1$).
 
 
-%cálculos dos nominais
+Sabendo a fórmula da resposta total para a tensão de um capacitor conectado em um circuito com uma fonte, é possível calcular os valores de $V_1$ para cada instante de tempo que seja necessário. Deste modo:
+\[	V_1(t)=V_s(1-e^{-\frac{t}{\tau}})+v(0)e^{-\frac{t}{\tau}}=(1-e^{-\frac{t}{\tau}})-e^{-\frac{t}{\tau}}=1-2e^{-\frac{t}{\tau}}.\]
+\[\implies V_1(0)= -1 V;\] 
+\[\implies V_1(\tau)= 1-2e^{-\frac{\tau}{\tau}}=0,264 V;   \]
+\[\implies V_1(2\tau)= 1-2e^{-\frac{t}{\tau}}=0,729 V; \]
+\[\implies V_1(3\tau)= 1-2e^{-\frac{t}{\tau}}=0,900 V; \]
+\[\implies V_1(10\tau)=1-2e^{-\frac{t}{\tau}}=0,999V.\]
 
-
+\newpage
 \begin{table}[h]
 \centering
 \includegraphics[scale=0.6]{rgadicoas/rgadicoa}
@@ -143,11 +149,11 @@ Gráfico 1: Resposta do circuito RC
 \begin{tabular}{|c|c|c|c|}
 \hline
 Tensão & Valor nominal (V) & Valor medido (V) & Erro (\%) \\\hline
-$V_1(0)$ &  & -976,53mV & \\    \hline
-$V_1(\tau)$ &  & 281,17mV & \\    \hline
-$V_1(2\tau)$ &  & 700,40mV & \\\hline
-$V_1(3\tau)$ &  & 910,00mV & \\\hline
-$V_1(10\tau)$ &  & 1,04V & \\\hline
+$V_1(0)$ & -1V & -976,53mV & \\    \hline
+$V_1(\tau)$ & 0,264 V & 281,17mV & \\    \hline
+$V_1(2\tau)$ & 0,729 V & 700,40mV & \\\hline
+$V_1(3\tau)$ & 0,900 V & 910,00mV & \\\hline
+$V_1(10\tau)$ & 0,999V & 1,04V & \\\hline
 \end{tabular}
 \caption*{Tabela 2: Tensões para circuito RC}
 \end{table}
@@ -155,7 +161,7 @@ $V_1(10\tau)$ &  & 1,04V & \\\hline
 
 
 
-\newpage
+
 Em seguida, remonta-se o circuito na forma da Figura 2, tornando-se um circuito RLC.
 
 \begin{table}[h]
@@ -167,7 +173,10 @@ Em seguida, remonta-se o circuito na forma da Figura 2, tornando-se um circuito 
 Figura 2: Circuito de segunda ordem
 \end{center}
 
-% cálculos relevantes aqui
+
+
+
+
 
 Com esses valores e usando o osciloscópio do Elvis, produz-se o Gráfico 2, de onde podem ser medidos os valores que serão preenchidos na Tabela 3. 
 
@@ -181,7 +190,19 @@ Com esses valores e usando o osciloscópio do Elvis, produz-se o Gráfico 2, de 
 Gráfico 2: Resposta do circuito RLC
 \end{center}
 
-%mais cálculos relevantes
+Para o circuito de segunda ordem RLC com a resistência $R_1$, a fim de calcular a frequência natural $\omega_n$ e o fator de amortecimento $\zeta$ do circuito, usamos as fórmulas:
+
+\[\omega_n = \frac{1}{\sqrt{LC}}\]
+\[\zeta = \frac{R}{2}\sqrt{\frac{C}{L}}\]
+
+Isso nos dá os resultados:
+
+\[\omega_n=145864,9915Hz;\hspace{10pt}\zeta=3,599Np/s\]
+
+Com isso são calculados os dois valores de $\tau$, 
+
+\[\tau = \frac{\zeta\pm\sqrt{\zeta^2-1}}{\omega_n}\]
+\[\implies \tau_1=4,84\cdot10^{-5}, \tau_2=9,72\cdot10^{-7}\]
 
 
 \vspace{5pt}
