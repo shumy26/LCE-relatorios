@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.28)  9 DEC 2024 17:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.28)  10 DEC 2024 20:11
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1257,18 +1257,31 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 83.
 (C:\Users\shumy\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-[2]
+[2] (tabelas/tabela 1.tex)
 <figuras/figura1.jpg, id=41, 610.53094pt x 158.84344pt>
 File: figuras/figura1.jpg Graphic file (type jpg)
 <use figuras/figura1.jpg>
-Package pdftex.def Info: figuras/figura1.jpg  used on input line 112.
+Package pdftex.def Info: figuras/figura1.jpg  used on input line 100.
 (pdftex.def)             Requested size: 427.36874pt x 111.18964pt.
 
-Overfull \hbox (9.11507pt too wide) in paragraph at lines 112--113
+Overfull \hbox (9.11507pt too wide) in paragraph at lines 100--101
  [][] 
  []
 
-[3 <./figuras/figura1.jpg>] (Rel5_G5.aux)
+(tabelas/tabela 2.tex
+Overfull \hbox (31.41228pt too wide) in paragraph at lines 4--16
+ [][] 
+ []
+
+) (tabelas/tabela 3.tex
+Overfull \hbox (31.41228pt too wide) in paragraph at lines 4--16
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [3 <./figuras/figura1.jpg>] [4] (Rel5_G5.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -1277,10 +1290,10 @@ Package rerunfilecheck Info: File `Rel5_G5.out' has not changed.
 (rerunfilecheck)             Checksum: 09C4C2B772B0A99F2D5881DEFEC15A3C;484.
  ) 
 Here is how much of TeX's memory you used:
- 42813 strings out of 475248
- 1023759 string characters out of 5757813
- 1924785 words of memory out of 5000000
- 63728 multiletter control sequences out of 15000+600000
+ 42843 strings out of 475248
+ 1024577 string characters out of 5757813
+ 1934785 words of memory out of 5000000
+ 63744 multiletter control sequences out of 15000+600000
  564070 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,9n,89p,744b,899s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1292,9 +1305,9 @@ ype1/public/amsfonts/cm/cmmi10.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTe
 X/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/shumy/AppData/Local/Progra
 ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/shumy/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-Output written on Rel5_G5.pdf (3 pages, 104034 bytes).
+Output written on Rel5_G5.pdf (4 pages, 111058 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
- 11 named destinations out of 1000 (max. 500000)
+ 91 PDF objects out of 1000 (max. 8388607)
+ 14 named destinations out of 1000 (max. 500000)
  58 words of extra memory for PDF output out of 10000 (max. 10000000)
 
