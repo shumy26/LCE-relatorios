@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.28)  10 DEC 2024 22:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.28)  11 DEC 2024 00:39
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1245,36 +1245,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--70
 [1
 
 {C:/Users/shumy/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 83.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 85.
 
 
 (C:\Users\shumy\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 83.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 85.
 
 
 (C:\Users\shumy\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 [2] (tabelas/tabela 1.tex)
-<figuras/figura1.jpg, id=33, 610.53094pt x 158.84344pt>
+<figuras/figura1.jpg, id=41, 610.53094pt x 158.84344pt>
 File: figuras/figura1.jpg Graphic file (type jpg)
 <use figuras/figura1.jpg>
-Package pdftex.def Info: figuras/figura1.jpg  used on input line 100.
+Package pdftex.def Info: figuras/figura1.jpg  used on input line 102.
 (pdftex.def)             Requested size: 427.36874pt x 111.18964pt.
 
-Overfull \hbox (9.11507pt too wide) in paragraph at lines 100--101
+Overfull \hbox (9.11507pt too wide) in paragraph at lines 102--103
  [][] 
  []
 
-<figuras/figura2.jpg, id=34, 313.9228pt x 185.19188pt>
+<figuras/figura2.jpg, id=42, 313.9228pt x 185.19188pt>
 File: figuras/figura2.jpg Graphic file (type jpg)
 <use figuras/figura2.jpg>
-Package pdftex.def Info: figuras/figura2.jpg  used on input line 113.
+Package pdftex.def Info: figuras/figura2.jpg  used on input line 115.
 (pdftex.def)             Requested size: 219.74446pt x 129.6334pt.
 [3 <./figuras/figura1.jpg> <./figuras/figura2.jpg>]
-Overfull \hbox (0.46732pt too wide) in paragraph at lines 138--139
+Overfull \hbox (0.46732pt too wide) in paragraph at lines 140--141
 \OT1/cmr/m/n/10 po-dem ser trans-for-ma-dos nas suas for-mas po-la-res $\OML/cm
 m/m/it/10 V[] \OT1/cmr/m/n/10 = 0\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 975\U/msa/m
 /n/10 \\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 10\OML/cmm/m/it/10 
@@ -1284,167 +1284,167 @@ mr/m/n/10 (\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 15\OML/cmm/m/it/10 ; \OT1/cmr/m/
 n/10 45$\TS1/cmr/m/n/10 °\OT1/cmr/m/n/10 ) 
  []
 
-<rgadicoas/grafico1.png, id=44, 1204.5pt x 803.0pt>
+<rgadicoas/grafico1.png, id=52, 1204.5pt x 803.0pt>
 File: rgadicoas/grafico1.png Graphic file (type png)
 <use rgadicoas/grafico1.png>
-Package pdftex.def Info: rgadicoas/grafico1.png  used on input line 144.
+Package pdftex.def Info: rgadicoas/grafico1.png  used on input line 146.
 (pdftex.def)             Requested size: 271.01918pt x 180.67946pt.
-<rgadicoas/grafico5.png, id=46, 1204.5pt x 803.0pt>
+<rgadicoas/grafico5.png, id=54, 1204.5pt x 803.0pt>
 File: rgadicoas/grafico5.png Graphic file (type png)
 <use rgadicoas/grafico5.png>
-Package pdftex.def Info: rgadicoas/grafico5.png  used on input line 154.
+Package pdftex.def Info: rgadicoas/grafico5.png  used on input line 156.
 (pdftex.def)             Requested size: 271.01918pt x 180.67946pt.
 [4 <./rgadicoas/grafico1.png> <./rgadicoas/grafico5.png>]
-<figuras/figura3.jpg, id=58, 331.2375pt x 191.21437pt>
+<figuras/figura3.jpg, id=66, 331.2375pt x 191.21437pt>
 File: figuras/figura3.jpg Graphic file (type jpg)
 <use figuras/figura3.jpg>
-Package pdftex.def Info: figuras/figura3.jpg  used on input line 165.
+Package pdftex.def Info: figuras/figura3.jpg  used on input line 167.
 (pdftex.def)             Requested size: 198.74402pt x 114.72949pt.
-<figuras/figura4.jpg, id=59, 327.47343pt x 189.70876pt>
+<figuras/figura4.jpg, id=67, 327.47343pt x 189.70876pt>
 File: figuras/figura4.jpg Graphic file (type jpg)
 <use figuras/figura4.jpg>
-Package pdftex.def Info: figuras/figura4.jpg  used on input line 179.
+Package pdftex.def Info: figuras/figura4.jpg  used on input line 181.
 (pdftex.def)             Requested size: 196.48558pt x 113.82613pt.
-<figuras/figura5.jpg, id=60, 334.24875pt x 172.39406pt>
+<figuras/figura5.jpg, id=68, 334.24875pt x 172.39406pt>
 File: figuras/figura5.jpg Graphic file (type jpg)
 <use figuras/figura5.jpg>
-Package pdftex.def Info: figuras/figura5.jpg  used on input line 193.
+Package pdftex.def Info: figuras/figura5.jpg  used on input line 195.
 (pdftex.def)             Requested size: 200.55078pt x 103.43723pt.
  [5 <./figuras/figura3.jpg> <./figuras/figura4.jpg> <./figuras/figura5.jpg>]
-<rgadicoas/grafico2.png, id=68, 1204.5pt x 803.0pt>
+<rgadicoas/grafico2.png, id=76, 1204.5pt x 803.0pt>
 File: rgadicoas/grafico2.png Graphic file (type png)
 <use rgadicoas/grafico2.png>
-Package pdftex.def Info: rgadicoas/grafico2.png  used on input line 208.
+Package pdftex.def Info: rgadicoas/grafico2.png  used on input line 210.
 (pdftex.def)             Requested size: 301.12427pt x 200.74951pt.
-<rgadicoas/grafico6.png, id=69, 1204.5pt x 803.0pt>
+<rgadicoas/grafico6.png, id=77, 1204.5pt x 803.0pt>
 File: rgadicoas/grafico6.png Graphic file (type png)
 <use rgadicoas/grafico6.png>
-Package pdftex.def Info: rgadicoas/grafico6.png  used on input line 218.
+Package pdftex.def Info: rgadicoas/grafico6.png  used on input line 220.
 (pdftex.def)             Requested size: 301.12427pt x 200.74951pt.
-<rgadicoas/grafico3.png, id=70, 1204.5pt x 803.0pt>
+<rgadicoas/grafico3.png, id=78, 1204.5pt x 803.0pt>
 File: rgadicoas/grafico3.png Graphic file (type png)
 <use rgadicoas/grafico3.png>
-Package pdftex.def Info: rgadicoas/grafico3.png  used on input line 227.
+Package pdftex.def Info: rgadicoas/grafico3.png  used on input line 229.
 (pdftex.def)             Requested size: 301.12427pt x 200.74951pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [6 <./rgadicoas/grafico2.png> <./rgadicoas/grafico6.png>]
-<rgadicoas/grafico7.png, id=79, 1204.5pt x 803.0pt>
+<rgadicoas/grafico7.png, id=87, 1204.5pt x 803.0pt>
 File: rgadicoas/grafico7.png Graphic file (type png)
 <use rgadicoas/grafico7.png>
-Package pdftex.def Info: rgadicoas/grafico7.png  used on input line 238.
+Package pdftex.def Info: rgadicoas/grafico7.png  used on input line 240.
 (pdftex.def)             Requested size: 301.12427pt x 200.74951pt.
  [7 <./rgadicoas/grafico3.png> <./rgadicoas/grafico7.png>]
-<rgadicoas/grafico4.png, id=89, 1204.5pt x 803.0pt>
+<rgadicoas/grafico4.png, id=97, 1204.5pt x 803.0pt>
 File: rgadicoas/grafico4.png Graphic file (type png)
 <use rgadicoas/grafico4.png>
-Package pdftex.def Info: rgadicoas/grafico4.png  used on input line 248.
+Package pdftex.def Info: rgadicoas/grafico4.png  used on input line 250.
 (pdftex.def)             Requested size: 301.12427pt x 200.74951pt.
-<rgadicoas/grafico8.png, id=90, 803.0pt x 803.0pt>
+<rgadicoas/grafico8.png, id=98, 803.0pt x 803.0pt>
 File: rgadicoas/grafico8.png Graphic file (type png)
 <use rgadicoas/grafico8.png>
-Package pdftex.def Info: rgadicoas/grafico8.png  used on input line 258.
+Package pdftex.def Info: rgadicoas/grafico8.png  used on input line 260.
 (pdftex.def)             Requested size: 240.90186pt x 240.90186pt.
  [8 <./rgadicoas/grafico4.png> <./rgadicoas/grafico8.png>] (tabelas/rgadicoaste
 xto.tex
-<rgadicoas/rgadicoa1.png, id=99, 357.58594pt x 337.26pt>
+<rgadicoas/rgadicoa1.png, id=107, 357.58594pt x 337.26pt>
 File: rgadicoas/rgadicoa1.png Graphic file (type png)
 <use rgadicoas/rgadicoa1.png>
 Package pdftex.def Info: rgadicoas/rgadicoa1.png  used on input line 3.
 (pdftex.def)             Requested size: 259.25134pt x 244.51495pt.
-<rgadicoas/rgadicoa1-2.png, id=100, 356.0803pt x 334.24875pt>
+<rgadicoas/rgadicoa1-2.png, id=108, 356.0803pt x 334.24875pt>
 File: rgadicoas/rgadicoa1-2.png Graphic file (type png)
 <use rgadicoas/rgadicoa1-2.png>
 Package pdftex.def Info: rgadicoas/rgadicoa1-2.png  used on input line 12.
 (pdftex.def)             Requested size: 258.15976pt x 242.33177pt.
  [9 <./rgadicoas/rgadicoa1.png> <./rgadicoas/rgadicoa1-2.png>]
-<rgadicoas/rgadicoa2.png, id=109, 353.82187pt x 334.24875pt>
+<rgadicoas/rgadicoa2.png, id=117, 353.82187pt x 334.24875pt>
 File: rgadicoas/rgadicoa2.png Graphic file (type png)
 <use rgadicoas/rgadicoa2.png>
 Package pdftex.def Info: rgadicoas/rgadicoa2.png  used on input line 24.
 (pdftex.def)             Requested size: 256.52237pt x 242.33177pt.
-<rgadicoas/rgadicoa2-2.png, id=110, 351.56343pt x 335.75438pt>
+<rgadicoas/rgadicoa2-2.png, id=118, 351.56343pt x 335.75438pt>
 File: rgadicoas/rgadicoa2-2.png Graphic file (type png)
 <use rgadicoas/rgadicoa2-2.png>
 Package pdftex.def Info: rgadicoas/rgadicoa2-2.png  used on input line 33.
 (pdftex.def)             Requested size: 254.885pt x 243.42337pt.
  [10 <./rgadicoas/rgadicoa2.png> <./rgadicoas/rgadicoa2-2.png>]
-<rgadicoas/rgadicoa3.png, id=119, 351.56343pt x 329.73187pt>
+<rgadicoas/rgadicoa3.png, id=127, 351.56343pt x 329.73187pt>
 File: rgadicoas/rgadicoa3.png Graphic file (type png)
 <use rgadicoas/rgadicoa3.png>
 Package pdftex.def Info: rgadicoas/rgadicoa3.png  used on input line 45.
 (pdftex.def)             Requested size: 254.885pt x 239.05702pt.
-<rgadicoas/rgadicoa3-2.png, id=120, 349.305pt x 334.24875pt>
+<rgadicoas/rgadicoa3-2.png, id=128, 349.305pt x 334.24875pt>
 File: rgadicoas/rgadicoa3-2.png Graphic file (type png)
 <use rgadicoas/rgadicoa3-2.png>
 Package pdftex.def Info: rgadicoas/rgadicoa3-2.png  used on input line 54.
 (pdftex.def)             Requested size: 253.24762pt x 242.33177pt.
  [11 <./rgadicoas/rgadicoa3.png> <./rgadicoas/rgadicoa3-2.png>]
-<rgadicoas/rgadicoa4.png, id=129, 347.79938pt x 334.24875pt>
+<rgadicoas/rgadicoa4.png, id=137, 347.79938pt x 334.24875pt>
 File: rgadicoas/rgadicoa4.png Graphic file (type png)
 <use rgadicoas/rgadicoa4.png>
 Package pdftex.def Info: rgadicoas/rgadicoa4.png  used on input line 66.
 (pdftex.def)             Requested size: 252.15605pt x 242.33177pt.
-<rgadicoas/rgadicoa4-2.png, id=130, 349.305pt x 335.00156pt>
+<rgadicoas/rgadicoa4-2.png, id=138, 349.305pt x 335.00156pt>
 File: rgadicoas/rgadicoa4-2.png Graphic file (type png)
 <use rgadicoas/rgadicoa4-2.png>
 Package pdftex.def Info: rgadicoas/rgadicoa4-2.png  used on input line 75.
 (pdftex.def)             Requested size: 253.24762pt x 242.87756pt.
 
 [12 <./rgadicoas/rgadicoa4.png> <./rgadicoas/rgadicoa4-2.png>]
-<rgadicoas/rgadicoa5.png, id=139, 350.05782pt x 329.73187pt>
+<rgadicoas/rgadicoa5.png, id=147, 350.05782pt x 329.73187pt>
 File: rgadicoas/rgadicoa5.png Graphic file (type png)
 <use rgadicoas/rgadicoa5.png>
 Package pdftex.def Info: rgadicoas/rgadicoa5.png  used on input line 87.
 (pdftex.def)             Requested size: 253.79341pt x 239.05702pt.
-<rgadicoas/rgadicoa5-2.png, id=140, 350.05782pt x 335.00156pt>
+<rgadicoas/rgadicoa5-2.png, id=148, 350.05782pt x 335.00156pt>
 File: rgadicoas/rgadicoa5-2.png Graphic file (type png)
 <use rgadicoas/rgadicoa5-2.png>
 Package pdftex.def Info: rgadicoas/rgadicoa5-2.png  used on input line 96.
 (pdftex.def)             Requested size: 253.79341pt x 242.87756pt.
  [13 <./rgadicoas/rgadicoa5.png> <./rgadicoas/rgadicoa5-2.png>]
-<rgadicoas/rgadicoa6.png, id=150, 352.31625pt x 333.49594pt>
+<rgadicoas/rgadicoa6.png, id=158, 352.31625pt x 333.49594pt>
 File: rgadicoas/rgadicoa6.png Graphic file (type png)
 <use rgadicoas/rgadicoa6.png>
 Package pdftex.def Info: rgadicoas/rgadicoa6.png  used on input line 108.
 (pdftex.def)             Requested size: 255.4308pt x 241.78598pt.
-<rgadicoas/rgadicoa6-2.png, id=151, 347.04657pt x 336.50719pt>
+<rgadicoas/rgadicoa6-2.png, id=159, 347.04657pt x 336.50719pt>
 File: rgadicoas/rgadicoa6-2.png Graphic file (type png)
 <use rgadicoas/rgadicoa6-2.png>
 Package pdftex.def Info: rgadicoas/rgadicoa6-2.png  used on input line 117.
 (pdftex.def)             Requested size: 251.61026pt x 243.96915pt.
  [14 <./rgadicoas/rgadicoa6.png> <./rgadicoas/rgadicoa6-2.png>]
-<rgadicoas/rgadicoa7.png, id=160, 350.05782pt x 335.00156pt>
+<rgadicoas/rgadicoa7.png, id=168, 350.05782pt x 335.00156pt>
 File: rgadicoas/rgadicoa7.png Graphic file (type png)
 <use rgadicoas/rgadicoa7.png>
 Package pdftex.def Info: rgadicoas/rgadicoa7.png  used on input line 129.
 (pdftex.def)             Requested size: 253.79341pt x 242.87756pt.
-<rgadicoas/rgadicoa7-2.png, id=161, 349.305pt x 332.74312pt>
+<rgadicoas/rgadicoa7-2.png, id=169, 349.305pt x 332.74312pt>
 File: rgadicoas/rgadicoa7-2.png Graphic file (type png)
 <use rgadicoas/rgadicoa7-2.png>
 Package pdftex.def Info: rgadicoas/rgadicoa7-2.png  used on input line 138.
 (pdftex.def)             Requested size: 253.24762pt x 241.24019pt.
  [15 <./rgadicoas/rgadicoa7.png> <./rgadicoas/rgadicoa7-2.png>]
-<rgadicoas/rgadicoa8.png, id=170, 348.55219pt x 334.24875pt>
+<rgadicoas/rgadicoa8.png, id=178, 348.55219pt x 334.24875pt>
 File: rgadicoas/rgadicoa8.png Graphic file (type png)
 <use rgadicoas/rgadicoa8.png>
 Package pdftex.def Info: rgadicoas/rgadicoa8.png  used on input line 150.
 (pdftex.def)             Requested size: 252.70183pt x 242.33177pt.
-<rgadicoas/rgadicoa8-2.png, id=171, 353.06906pt x 335.75438pt>
+<rgadicoas/rgadicoa8-2.png, id=179, 353.06906pt x 335.75438pt>
 File: rgadicoas/rgadicoa8-2.png Graphic file (type png)
 <use rgadicoas/rgadicoa8-2.png>
 Package pdftex.def Info: rgadicoas/rgadicoa8-2.png  used on input line 159.
 (pdftex.def)             Requested size: 255.9766pt x 243.42337pt.
 ) [16 <./rgadicoas/rgadicoa8.png> <./rgadicoas/rgadicoa8-2.png>]
 (tabelas/tabela 2.tex
-Overfull \hbox (31.41228pt too wide) in paragraph at lines 4--16
+Overfull \hbox (37.64139pt too wide) in paragraph at lines 4--16
  [][] 
  []
 
 ) (tabelas/tabela 3.tex
-Overfull \hbox (31.41228pt too wide) in paragraph at lines 4--16
+Overfull \hbox (37.64139pt too wide) in paragraph at lines 4--16
  [][] 
  []
 
@@ -1453,24 +1453,17 @@ Overfull \hbox (31.41228pt too wide) in paragraph at lines 4--16
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
-
-
-Package rerunfilecheck Warning: File `Rel5_G5.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Rel5_G5.out':
-(rerunfilecheck)             Before: 5698338D2AEB53E4DABE663D1FA3C18D;290
-(rerunfilecheck)             After:  09C4C2B772B0A99F2D5881DEFEC15A3C;484.
+Package rerunfilecheck Info: File `Rel5_G5.out' has not changed.
+(rerunfilecheck)             Checksum: 09C4C2B772B0A99F2D5881DEFEC15A3C;484.
  ) 
 Here is how much of TeX's memory you used:
- 43213 strings out of 475248
- 1034497 string characters out of 5757813
- 1932785 words of memory out of 5000000
- 64069 multiletter control sequences out of 15000+600000
+ 43218 strings out of 475248
+ 1034543 string characters out of 5757813
+ 1933785 words of memory out of 5000000
+ 64074 multiletter control sequences out of 15000+600000
  564070 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,9n,89p,744b,903s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 83i,9n,89p,762b,903s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\shumy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1000.pk><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx10.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/publ
@@ -1484,9 +1477,9 @@ humy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/
 Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10
 .pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
 symbols/msam10.pfb>
-Output written on Rel5_G5.pdf (18 pages, 2534731 bytes).
+Output written on Rel5_G5.pdf (18 pages, 2541003 bytes).
 PDF statistics:
- 254 PDF objects out of 1000 (max. 8388607)
+ 260 PDF objects out of 1000 (max. 8388607)
  56 named destinations out of 1000 (max. 500000)
- 182 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 198 words of extra memory for PDF output out of 10000 (max. 10000000)
 

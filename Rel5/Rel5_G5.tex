@@ -75,13 +75,15 @@ Vinicius de Melo Moraes - 231036274\\
 
 \section{Introdução}
 
+\parag A prática de laboratório de circuitos elétricos dedicada ao estudo de circuitos RC em regime permanente senoidal tem como objetivo compreender o comportamento desses circuitos quando submetidos a uma fonte de tensão alternada senoidal. Durante o experimento, são investigadas relações entre as tensões de entrada e capacitiva, defasagem, e impedâncias. Esses conceitos são essenciais para o entendimento da resposta em frequência do circuito e suas aplicações práticas, como filtragem de sinais. Além disso, a atividade proporciona uma oportunidade de explorar a relação teórica e prática, utilizando instrumentos de medição para observar os fenômenos e validar os modelos matemáticos associados.
+
 \section{Materiais}
 
 
 	\begin{itemize}
 	\item National Instruments Elvis II
-	\item 2 capacitor de 47n$F$
-	\item 2 resistor de 1,2k$\Omega$
+	\item 2 capacitores de 47n$F$
+	\item 2 resistores de 1,2k$\Omega$
 	
 	\end{itemize}
 
@@ -180,10 +182,10 @@ $V_2=0,778-j0,447=0,897\angle(-29,88$\textdegree)\\
 \end{table}
 
 \begin{center}
-Figura 4: Circuito no domínio fasorial para $\omega=2000\pi$
+Figura 4: Circuito no domínio fasorial para $\omega=2000\pi rad/s$
 \end{center}
 
-$f=1kHz\implies \omega = 2000\pi:$\\\centering
+$f=1kHz\implies \omega = 2000\pi rad/s:$\\\centering
 $V_1=0,639-j0,403=0,755\angle(-32,24$\textdegree)\\
 $V_2=0,437-j0,561=0,711\angle(-52,08$\textdegree)\\
 \justifying
@@ -194,10 +196,10 @@ $V_2=0,437-j0,561=0,711\angle(-52,08$\textdegree)\\
 \end{table}
 
 \begin{center}
-Figura 5: Circuito no domínio fasorial para $\omega=4000\pi$
+Figura 5: Circuito no domínio fasorial para $\omega=4000\pi rad/s$
 \end{center}
 
-$f=2kHz\implies \omega = 4000\pi:$\\\centering
+$f=2kHz\implies \omega = 4000\pi rad/s:$\\\centering
 $V_1=0,401-j0,367=0,544\angle(-42,47$\textdegree)\\
 $V_2=0,089-j0,432=0,441\angle(-78,36$\textdegree)\\
 \justifying
@@ -209,7 +211,7 @@ $V_2=0,089-j0,432=0,441\angle(-78,36$\textdegree)\\
 \end{table}
 
 \begin{center}
-Gráfico 3: Tensão da fonte e $V_1$ em $\omega =1000\pi$
+Gráfico 3: Tensão da fonte e $V_1$ em $\omega =1000\pi rad/s$
 \end{center}
 
 \vspace{30pt}
@@ -219,7 +221,7 @@ Gráfico 3: Tensão da fonte e $V_1$ em $\omega =1000\pi$
 \end{table}
 
 \begin{center}
-Gráfico 4: Tensão da fonte e $V_2$ em $\omega =1000\pi$
+Gráfico 4: Tensão da fonte e $V_2$ em $\omega =1000\pi rad/s$
 \end{center}
 
 \begin{table}[h]
@@ -229,7 +231,7 @@ Gráfico 4: Tensão da fonte e $V_2$ em $\omega =1000\pi$
 
 \newpage
 \begin{center}
-Gráfico 5: Tensão da fonte e $V_1$ em $\omega =2000\pi$
+Gráfico 5: Tensão da fonte e $V_1$ em $\omega =2000\pi rad/s$
 \end{center}
 
 \vspace{30pt}
@@ -239,7 +241,7 @@ Gráfico 5: Tensão da fonte e $V_1$ em $\omega =2000\pi$
 \end{table}
 
 \begin{center}
-Gráfico 6: Tensão da fonte e $V_2$ em $\omega =2000\pi$
+Gráfico 6: Tensão da fonte e $V_2$ em $\omega =2000\pi rad/s$
 \end{center}
 
 \newpage
@@ -249,7 +251,7 @@ Gráfico 6: Tensão da fonte e $V_2$ em $\omega =2000\pi$
 \end{table}
 
 \begin{center}
-Gráfico 7: Tensão da fonte e $V_1$ em $\omega =4000\pi$
+Gráfico 7: Tensão da fonte e $V_1$ em $\omega =4000\pi rad/s$
 \end{center}
 
 \vspace{30pt}
@@ -259,7 +261,7 @@ Gráfico 7: Tensão da fonte e $V_1$ em $\omega =4000\pi$
 \end{table}
 
 \begin{center}
-Gráfico 8: Tensão da fonte e $V_2$ em $\omega =4000\pi$
+Gráfico 8: Tensão da fonte e $V_2$ em $\omega =4000\pi rad/s $
 \end{center}
 
 \newpage
@@ -274,11 +276,19 @@ Agora que temos todos os dados, montam-se as tabelas 2 e 3.
 \input{tabelas/tabela 3}
 
 
+À medida que a frequência da tensão de entrada em um circuito com capacitor aumenta, a reatância capacitiva $(Z_c = \frac{1}{j\omega C})$ diminui, uma vez que é inversamente proporcional à frequência. Isso faz com que o capacitor ofereça menor oposição ao fluxo de corrente alternada, reduzindo a amplitude da tensão capacitiva em relação à tensão de entrada.
+
 
 
 \newpage
 \section{Conclusão}
 
+\parag A prática realizada sobre circuitos RC em regime permanente senoidal permitiu compreender o comportamento do circuito diante de diferentes frequências de entrada, destacando a influência da impedância nas tensões capacitivas medidas, comparando-as com os valores teóricos. Os resultados obtidos validaram os conceitos teóricos relacionados ao regime senoidal e ressaltaram a importância desses circuitos em aplicações práticas, como controle de frequências e filtragem de sinais. A atividade reforçou a relação entre teoria e prática, consolidando o aprendizado dos princípios fundamentais dos circuitos elétricos.
+
 \section{Bibliografia}
+
+\begin{itemize}
+\item HALLIDAY, D.; RESNICK, R.; WALKER, J. Fundamentos de Física. 10. ed. v. 3. Rio de Janeiro: LTC, 2016.
+\end{itemize}
 
 \end{document}
