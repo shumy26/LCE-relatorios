@@ -104,9 +104,179 @@ Em seguida, os componentes são usados para montar o circuito da Figura 1.
 Figura 1: Circuito em regime AC
 \end{center}
 
+O Elvis possui um gerador de funções, que é usado para produzir uma onda senoidal com $2V_{pp}$, offset zero e frequência de $250Hz$. Além do gerador, o equipamento também possui um osciloscópio, que é usado para medir as tensões relevantes e produzir os gráficos.
+
+Para começar, é feita a transformação do circuito para o domínio dos fasores, de forma a facilitar as contas. Isso resulta no circuito da Figura 2.
+
+\begin{table}[h]
+\centering
+\includegraphics[scale=0.7]{figuras/figura2}
+\end{table}
+
+\begin{center}
+Figura 2: Circuito no domínio fasorial
+\end{center}
+
+Nesse formato do circuito, foi feita análise nodal para obter as tensões $V_1$ e $V_2$.
+
+\newpage
+LKC nó 1:
+\[\frac{(-1+V_1)}{1250}+\frac{V_1}{-j13545}+\frac{(-V_2+V_1)}{1200}=0\]
+
+LKC nó 2:
+\[-\frac{V_2}{j13545}-\frac{(-V_2+V_1)}{1200}=0\]
+que simplificam no seguinte sistema:
+
+\begin{equation*}
+\left\{
+\begin{aligned}
+V_1(16,33+j0,74)-V_2(8,33)=8\\
+V_1(-8,33)+V_2(8,33+j0,74)=0
+\end{aligned}\right.
+\end{equation*}
+
+Com isso obtemos os valores esperados de $V_1=0,959-j0,175$ e $V_2=0,937-j0,259$, que podem ser transformados nas suas formas polares $V_1=0,975\angle(-10,34$\textdegree) e $V_2=0,972\angle(-15,45$\textdegree)
+
+Seguem o os Gráficos 1 e 2 que demonstram a diferença de amplitude entre $V_0$ e $V_1$ e $V_0$ e $V_2$, respectivamente. Em azul escuro, temos a tensão da fonte e em verde as tensões capacitivas.
+
+\begin{table}[h]
+\centering
+\includegraphics[scale=0.225]{rgadicoas/grafico1}
+\end{table}
+
+\begin{center}
+Gráfico 1: Tensão da fonte e $V_1$
+\end{center}
+
+
+\begin{table}[h]
+\centering
+\includegraphics[scale=0.225]{rgadicoas/grafico5}
+\end{table}
+
+\begin{center}
+Gráfico 2: Tensão da fonte e $V_2$
+\end{center}
+
+Em seguida, o processo é repetido para as frequências de $500Hz$, $1kHz$ e $2kHz$. Como a única parte alterada em todas contas é a impedância dos capacitores, que depende de $\omega$ (uma vez que $Z_c=\dfrac{1}{j\omega C}$), de forma análoga se encontram  os valores de $V_1$ e $V_2$ expostos a seguir, e seus gráficos.
+
+\begin{table}[h]
+\centering
+\includegraphics[scale=0.6]{figuras/figura3}
+\end{table}
+
+\begin{center}
+Figura 3: Circuito no domínio fasorial para $\omega=1000\pi$
+\end{center}
+
+$f=500Hz\implies \omega = 1000\pi:$\\\centering
+$V_1=0,859-j0,307 = 0,910\angle(-19,25$\textdegree)\\
+$V_2=0,778-j0,447=0,897\angle(-29,88$\textdegree)\\
+\justifying
+
+\begin{table}[h]
+\centering
+\includegraphics[scale=0.6]{figuras/figura4}
+\end{table}
+
+\begin{center}
+Figura 4: Circuito no domínio fasorial para $\omega=2000\pi$
+\end{center}
+
+$f=1kHz\implies \omega = 2000\pi:$\\\centering
+$V_1=0,639-j0,403=0,755\angle(-32,24$\textdegree)\\
+$V_2=0,437-j0,561=0,711\angle(-52,08$\textdegree)\\
+\justifying
+
+\begin{table}[h]
+\centering
+\includegraphics[scale=0.6]{figuras/figura5}
+\end{table}
+
+\begin{center}
+Figura 5: Circuito no domínio fasorial para $\omega=4000\pi$
+\end{center}
+
+$f=2kHz\implies \omega = 4000\pi:$\\\centering
+$V_1=0,401-j0,367=0,544\angle(-42,47$\textdegree)\\
+$V_2=0,089-j0,432=0,441\angle(-78,36$\textdegree)\\
+\justifying
+
+\newpage
+\begin{table}[h]
+\centering
+\includegraphics[scale=0.25]{rgadicoas/grafico2}
+\end{table}
+
+\begin{center}
+Gráfico 3: Tensão da fonte e $V_1$ em $\omega =1000\pi$
+\end{center}
+
+\vspace{30pt}
+\begin{table}[h]
+\centering
+\includegraphics[scale=0.25]{rgadicoas/grafico6}
+\end{table}
+
+\begin{center}
+Gráfico 4: Tensão da fonte e $V_2$ em $\omega =1000\pi$
+\end{center}
+
+\begin{table}[h]
+\centering
+\includegraphics[scale=0.25]{rgadicoas/grafico3}
+\end{table}
+
+\newpage
+\begin{center}
+Gráfico 5: Tensão da fonte e $V_1$ em $\omega =2000\pi$
+\end{center}
+
+\vspace{30pt}
+\begin{table}[h]
+\centering
+\includegraphics[scale=0.25]{rgadicoas/grafico7}
+\end{table}
+
+\begin{center}
+Gráfico 6: Tensão da fonte e $V_2$ em $\omega =2000\pi$
+\end{center}
+
+\newpage
+\begin{table}[h]
+\centering
+\includegraphics[scale=0.25]{rgadicoas/grafico4}
+\end{table}
+
+\begin{center}
+Gráfico 7: Tensão da fonte e $V_1$ em $\omega =4000\pi$
+\end{center}
+
+\vspace{30pt}
+\begin{table}[h]
+\centering
+\includegraphics[scale=0.3]{rgadicoas/grafico8}
+\end{table}
+
+\begin{center}
+Gráfico 8: Tensão da fonte e $V_2$ em $\omega =4000\pi$
+\end{center}
+
+\newpage
+Tendo todos esses dados, foram feitas as medições no circuito físico, usando o osciloscópio do Elvis. Usando os cursores, são feitas as seguintes medições da amplitude das tensões e o dt (em segundos) entre os seus picos. O dt é então multiplicado pelo $\omega$ para descobrir a diferença de fase em radianos entre ambas as ondas, e esse valor é convertido para graus. 
+
+\input{tabelas/rgadicoastexto}
+
+\newpage
+Agora que temos todos os dados, montam-se as tabelas 2 e 3.
+
 \input{tabelas/tabela 2}
 \input{tabelas/tabela 3}
 
+
+
+
+\newpage
 \section{Conclusão}
 
 \section{Bibliografia}
