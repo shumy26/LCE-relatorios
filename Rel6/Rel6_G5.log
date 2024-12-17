@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.28)  16 DEC 2024 17:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.28)  16 DEC 2024 23:11
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1257,43 +1257,47 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 84.
 (C:\Users\shumy\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-[2] [3] (Rel6_G5.aux)
+[2] (tabelas/tabela1.tex)
+<figuras/figura1.jpg, id=45, 787.44188pt x 209.28188pt>
+File: figuras/figura1.jpg Graphic file (type jpg)
+<use figuras/figura1.jpg>
+Package pdftex.def Info: figuras/figura1.jpg  used on input line 100.
+(pdftex.def)             Requested size: 393.71997pt x 104.64067pt.
+<rgadicoas/rgadicoa1.png, id=46, 737.00343pt x 699.36281pt>
+File: rgadicoas/rgadicoa1.png Graphic file (type png)
+<use rgadicoas/rgadicoa1.png>
+Package pdftex.def Info: rgadicoas/rgadicoa1.png  used on input line 111.
+(pdftex.def)             Requested size: 280.06421pt x 265.76062pt.
+ (tabelas/tabela2.tex [3 <./figuras/figura1.jpg> <./rgadicoas/rgadicoa1.png>]) 
+[4] (Rel6_G5.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
-
-
-Package rerunfilecheck Warning: File `Rel6_G5.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Rel6_G5.out':
-(rerunfilecheck)             Before: 5241CF3B90D8FA3BD444308A07CDA3E7;680
-(rerunfilecheck)             After:  1620ADA6889D54D2F930A418C2563953;592.
+Package rerunfilecheck Info: File `Rel6_G5.out' has not changed.
+(rerunfilecheck)             Checksum: 1620ADA6889D54D2F930A418C2563953;592.
  ) 
 Here is how much of TeX's memory you used:
- 42792 strings out of 475248
- 1023247 string characters out of 5757813
- 1920785 words of memory out of 5000000
- 63707 multiletter control sequences out of 15000+600000
+ 42848 strings out of 475248
+ 1024652 string characters out of 5757813
+ 1927785 words of memory out of 5000000
+ 63751 multiletter control sequences out of 15000+600000
  564070 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,5n,89p,744b,899s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{section.7} has been referenced but does not exist, 
-replaced by a fixed one
-
- <C:\Users\shumy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm10
-00.pk><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmbx10.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmbx12.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmmi10.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/shumy/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on Rel6_G5.pdf (3 pages, 75191 bytes).
+ 83i,10n,89p,744b,926s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\shumy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
+1000.pk><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmbx10.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmbx12.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmmi10.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/shumy/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/shumy/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/shumy/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/shu
+my/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb>
+Output written on Rel6_G5.pdf (4 pages, 388278 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
- 11 named destinations out of 1000 (max. 500000)
- 69 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 107 PDF objects out of 1000 (max. 8388607)
+ 15 named destinations out of 1000 (max. 500000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
