@@ -104,7 +104,51 @@ Em seguida, é montado o circuito da Figura 1 e liga-se o gerador de funções d
 Figura 1: Circuito sem capacitor
 \end{center}
 
-Usando o osciloscópio do Elvis, são medidas as tensões $V_0$ e $V_{carga}$, obtidas no Gráfico 1. Esses valores são usados para obter $V_{R_1}$ e são encontrados na Tabela 2. 
+Fazendo análise nodal nesse circuito, são encontradas $V_0$ e $V_{carga}$, que serão usadas para encontrar $V_{R_1}$. 
+
+\[\frac{V_{carga}-V_0}{47}+\frac{V_{carga}-V_2}{47}=0\]
+\[\frac{V_2-0}{j14}-\frac{(V_{carga}-V_2)}{47}=0\]
+\[\frac{V_0-1}{50}-\frac{(V_{carga}-V_0)}{47}=0\]
+
+
+De onde obtém-se o seguinte sistema:
+
+\begin{equation*}
+\left\{
+\begin{aligned}
+2V_{carga}-V_0-V_2=0\\
+-\frac{V_{carga}}{47} + \frac{V_0}{97} = \frac{1}{50}\\
+-\frac{V_{carga}}{47} + V_2\left(-\frac{1}{47}-j\frac{1}{14}\right)=0\\
+\end{aligned}\right.
+\end{equation*}
+
+\newpage
+De onde obtemos os resultados 
+\[V_0 = 0,63930+j0,02704=0,640\angle 2,42\text{\textdegree}\]
+\[V_{carga}=0,30024+j0,05245=0,305\angle 9,91\text{\textdegree}\]
+\[V_2=-0,038820+j0,077870=0,087\angle -63,50\text{\textdegree}\]
+
+Com $V_0$ e $V_{carga}$ podemos encontrar $V_{R_1}=V_0-V_{carga}$\\
+Portanto $V_{R_1}=0,33906-j0,02541=0,340\angle-4,29\text{\textdegree}$ 
+
+Para senoides, o valor eficaz é simplesmente sua amplitude dividida por $\sqrt{2}$. Portanto, esses valores são calculados e dispostos na Tabela 2.
+
+Com esses valores já pode ser montado o Gráfico 1, em que a senoide vermelha representa $V_0$ e a azul $V_{carga}$.
+
+\vspace{3cm}
+\begin{table}[h]
+\centering
+\includegraphics[scale=0.25]{rgadicoas/grafico1}
+\end{table}
+
+\begin{center}
+Gráfico 1: Circuito sem capacitor (teórico)
+\end{center}
+
+\newpage
+Usando o osciloscópio do Elvis, são medidas as tensões $V_0$ e $V_{carga}$, obtidas no Gráfico 2. Esses valores são usados para obter $V_{R_1}$ e são encontrados na Tabela 2. 
+
+
 
 \begin{table}[h]
 \centering
@@ -112,8 +156,37 @@ Usando o osciloscópio do Elvis, são medidas as tensões $V_0$ e $V_{carga}$, o
 \end{table}
 
 \begin{center}
-Gráfico 1: Circuito sem capacitor
+Gráfico 2: Circuito sem capacitor
 \end{center}
+
+
+
+
+Para obter o fator de potência, usa-se a seguinte fórmula:
+
+\[fp = \frac{|V_0|^2-|V_{R_1}|^2-|V_{carga}|^2}{2|V_{R_1}||V_{carga}|}\]
+
+que é consequência do triângulo de potência, em que o fator de potência é o ângulo $\theta_v-\theta_i$
+
+
+
+\begin{center}
+\begin{tikzpicture}
+\draw (0,0)--(4,3)--(4,0)--(0,0);
+\draw node at (2,2) {\textbf{S}};
+\draw node at (4.5,1.5) {\textbf{P}};
+\draw (1,0) arc (0:38:1cm);
+\draw node at (1.5,0.4) {$\theta_v-\theta_i$}; 
+\end{tikzpicture}
+\end{center}
+
+
+Como $fp=cos(\theta_v-\theta_i)=\frac{P}{S}$ e sabendo que $V_0=V_{R_1}+V_{carga}$, \\temos que $(V_0)^2=(V_{R_1}+V_{carga})^2$
+\[\implies|V_0|^2=|V_{R_1}|^2 + |V_{carga}|^2+2|V_{R_1}||V_{carga}|cos(\theta)\]
+Isolando $cos(\theta)$ temos 
+\[fp = cos(\theta)= \frac{|V_0|^2-|V_{R_1}|^2-|V_carga|^2}{2|V_{R_1}||V_{carga}|}\]
+
+Portanto, usando os valores encontrados anteriormente, obtemos o valor de $fp$ para o circuito e eles são dispostos na Tabela 2.
 
 \input{tabelas/tabela2}
 

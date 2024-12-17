@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.28)  16 DEC 2024 23:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.28)  17 DEC 2024 19:05
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1263,13 +1263,19 @@ File: figuras/figura1.jpg Graphic file (type jpg)
 <use figuras/figura1.jpg>
 Package pdftex.def Info: figuras/figura1.jpg  used on input line 100.
 (pdftex.def)             Requested size: 393.71997pt x 104.64067pt.
-<rgadicoas/rgadicoa1.png, id=46, 737.00343pt x 699.36281pt>
+ [3 <./figuras/figura1.jpg>]
+<rgadicoas/grafico1.png, id=57, 1204.5pt x 803.0pt>
+File: rgadicoas/grafico1.png Graphic file (type png)
+<use rgadicoas/grafico1.png>
+Package pdftex.def Info: rgadicoas/grafico1.png  used on input line 141.
+(pdftex.def)             Requested size: 301.12427pt x 200.74951pt.
+ [4 <./rgadicoas/grafico1.png>]
+<rgadicoas/rgadicoa1.png, id=66, 737.00343pt x 699.36281pt>
 File: rgadicoas/rgadicoa1.png Graphic file (type png)
 <use rgadicoas/rgadicoa1.png>
-Package pdftex.def Info: rgadicoas/rgadicoa1.png  used on input line 111.
+Package pdftex.def Info: rgadicoas/rgadicoa1.png  used on input line 155.
 (pdftex.def)             Requested size: 280.06421pt x 265.76062pt.
- (tabelas/tabela2.tex [3 <./figuras/figura1.jpg> <./rgadicoas/rgadicoa1.png>]) 
-[4] (Rel6_G5.aux)
+ [5 <./rgadicoas/rgadicoa1.png>] (tabelas/tabela2.tex) [6] (Rel6_G5.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -1278,26 +1284,30 @@ Package rerunfilecheck Info: File `Rel6_G5.out' has not changed.
 (rerunfilecheck)             Checksum: 1620ADA6889D54D2F930A418C2563953;592.
  ) 
 Here is how much of TeX's memory you used:
- 42848 strings out of 475248
- 1024652 string characters out of 5757813
- 1927785 words of memory out of 5000000
- 63751 multiletter control sequences out of 15000+600000
- 564070 words of font info for 58 fonts, out of 8000000 for 9000
+ 42955 strings out of 475248
+ 1027326 string characters out of 5757813
+ 1929785 words of memory out of 5000000
+ 63853 multiletter control sequences out of 15000+600000
+ 564748 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,10n,89p,744b,926s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 83i,10n,89p,744b,899s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\shumy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1000.pk><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx10.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmbx12.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmmi10.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/shumy/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/shumy/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/shumy/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/shu
-my/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-Output written on Rel6_G5.pdf (4 pages, 388278 bytes).
+ype1/public/amsfonts/cm/cmex10.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/shumy/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/shumy/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/shumy/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/s
+humy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/
+Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.p
+fb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
+sfonts/symbols/msam10.pfb>
+Output written on Rel6_G5.pdf (6 pages, 488083 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
- 15 named destinations out of 1000 (max. 500000)
- 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 134 PDF objects out of 1000 (max. 8388607)
+ 18 named destinations out of 1000 (max. 500000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
 
