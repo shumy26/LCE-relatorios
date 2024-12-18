@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.28)  18 DEC 2024 18:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.28)  18 DEC 2024 19:52
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -854,51 +854,6 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 16.
 
-(C:\Users\shumy\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
-Package: siunitx 2023-10-07 v3.3.7 A comprehensive (SI) units package
-\l__siunitx_number_uncert_offset_int=\count327
-\l__siunitx_number_exponent_fixed_int=\count328
-\l__siunitx_number_min_decimal_int=\count329
-\l__siunitx_number_min_integer_int=\count330
-\l__siunitx_number_round_precision_int=\count331
-\l__siunitx_number_lower_threshold_int=\count332
-\l__siunitx_number_upper_threshold_int=\count333
-\l__siunitx_number_group_first_int=\count334
-\l__siunitx_number_group_size_int=\count335
-\l__siunitx_number_group_minimum_int=\count336
-\l__siunitx_angle_tmp_dim=\dimen293
-\l__siunitx_angle_marker_box=\box119
-\l__siunitx_angle_unit_box=\box120
-\l__siunitx_compound_count_int=\count337
-
-(C:\Users\shumy\AppData\Local\Programs\MiKTeX\tex/latex/translations\translatio
-ns.sty
-Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
- (CN)
-)
-\l__siunitx_table_tmp_box=\box121
-\l__siunitx_table_tmp_dim=\dimen294
-\l__siunitx_table_column_width_dim=\dimen295
-\l__siunitx_table_integer_box=\box122
-\l__siunitx_table_decimal_box=\box123
-\l__siunitx_table_uncert_box=\box124
-\l__siunitx_table_before_box=\box125
-\l__siunitx_table_after_box=\box126
-\l__siunitx_table_before_dim=\dimen296
-\l__siunitx_table_carry_dim=\dimen297
-\l__siunitx_unit_tmp_int=\count338
-\l__siunitx_unit_position_int=\count339
-\l__siunitx_unit_total_int=\count340
- (C:\Users\shumy\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
-Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen298
-\ar@mcellbox=\box127
-\extrarowheight=\dimen299
-\NC@list=\toks51
-\extratabsurround=\skip59
-\backup@length=\skip60
-\ar@cellbox=\box128
-))
 (C:\Users\shumy\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
 )
@@ -919,13 +874,13 @@ Package cleveref Info: `amsthm' support loaded on input line 3026.
 )
 (C:\Users\shumy\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2023/09/12 v3.94 The Babel package
-\babel@savecnt=\count341
-\U@D=\dimen300
+\babel@savecnt=\count327
+\U@D=\dimen293
 \l@unhyphenated=\language79
 
 (C:\Users\shumy\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read4
-\bbl@dirlevel=\count342
+\bbl@dirlevel=\count328
 
 *************************************
 * Local config file bblopts.cfg used
@@ -946,26 +901,26 @@ Package: caption 2023/07/31 v3.6n Customizing captions (AR)
 
 (C:\Users\shumy\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen301
-\captionmargin=\dimen302
-\caption@leftmargin=\dimen303
-\caption@rightmargin=\dimen304
-\caption@width=\dimen305
-\caption@indent=\dimen306
-\caption@parindent=\dimen307
-\caption@hangindent=\dimen308
+\caption@tempdima=\dimen294
+\captionmargin=\dimen295
+\caption@leftmargin=\dimen296
+\caption@rightmargin=\dimen297
+\caption@width=\dimen298
+\caption@indent=\dimen299
+\caption@parindent=\dimen300
+\caption@hangindent=\dimen301
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count343
-\c@continuedfloat=\count344
+\c@caption@flags=\count329
+\c@continuedfloat=\count330
 Package caption Info: hyperref package is loaded.
 )
 (C:\Users\shumy\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count345
+\c@subfigure=\count331
 Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count346
+\c@subtable=\count332
 ) (C:\Users\shumy\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
 Package: pdfpages 2022/12/19 v0.5x Insert pages of external PDF documents (AM)
 
@@ -974,62 +929,62 @@ Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
 (C:\Users\shumy\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count347
-\calc@Bcount=\count348
-\calc@Adimen=\dimen309
-\calc@Bdimen=\dimen310
-\calc@Askip=\skip61
-\calc@Bskip=\skip62
+\calc@Acount=\count333
+\calc@Bcount=\count334
+\calc@Adimen=\dimen302
+\calc@Bdimen=\dimen303
+\calc@Askip=\skip59
+\calc@Bskip=\skip60
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count349
-\calc@Cskip=\skip63
+\calc@Ccount=\count335
+\calc@Cskip=\skip61
 )
 (C:\Users\shumy\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
 Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
-\ESO@tempdima=\dimen311
-\ESO@tempdimb=\dimen312
+\ESO@tempdima=\dimen304
+\ESO@tempdimb=\dimen305
 )
-\AM@pagewidth=\dimen313
-\AM@pageheight=\dimen314
-\AM@fboxrule=\dimen315
+\AM@pagewidth=\dimen306
+\AM@pageheight=\dimen307
+\AM@fboxrule=\dimen308
 
 (C:\Users\shumy\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
 File: pppdftex.def 2022/12/19 v0.5x Pdfpages driver for pdfTeX (AM)
 )
-\pdfpages@includegraphics@status=\count350
-\AM@pagebox=\box129
-\AM@global@opts=\toks52
-\AM@pagecnt=\count351
-\AM@toc@title=\toks53
-\AM@lof@heading=\toks54
-\c@AM@survey=\count352
-\AM@templatesizebox=\box130
+\pdfpages@includegraphics@status=\count336
+\AM@pagebox=\box119
+\AM@global@opts=\toks51
+\AM@pagecnt=\count337
+\AM@toc@title=\toks52
+\AM@lof@heading=\toks53
+\c@AM@survey=\count338
+\AM@templatesizebox=\box120
 ) (C:\Users\shumy\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen316
-\lightrulewidth=\dimen317
-\cmidrulewidth=\dimen318
-\belowrulesep=\dimen319
-\belowbottomsep=\dimen320
-\aboverulesep=\dimen321
-\abovetopsep=\dimen322
-\cmidrulesep=\dimen323
-\cmidrulekern=\dimen324
-\defaultaddspace=\dimen325
-\@cmidla=\count353
-\@cmidlb=\count354
-\@aboverulesep=\dimen326
-\@belowrulesep=\dimen327
-\@thisruleclass=\count355
-\@lastruleclass=\count356
-\@thisrulewidth=\dimen328
+\heavyrulewidth=\dimen309
+\lightrulewidth=\dimen310
+\cmidrulewidth=\dimen311
+\belowrulesep=\dimen312
+\belowbottomsep=\dimen313
+\aboverulesep=\dimen314
+\abovetopsep=\dimen315
+\cmidrulesep=\dimen316
+\cmidrulekern=\dimen317
+\defaultaddspace=\dimen318
+\@cmidla=\count339
+\@cmidlb=\count340
+\@aboverulesep=\dimen319
+\@belowrulesep=\dimen320
+\@thisruleclass=\count341
+\@lastruleclass=\count342
+\@thisrulewidth=\dimen321
 ) (C:\Users\shumy\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip64
-\multirow@cntb=\count357
-\multirow@dima=\skip65
-\bigstrutjot=\dimen329
+\multirow@colwidth=\skip62
+\multirow@cntb=\count343
+\multirow@dima=\skip63
+\bigstrutjot=\dimen322
 ) (C:\Users\shumy\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 )
@@ -1045,9 +1000,9 @@ LaTeX Warning: Command \@arrayparboxrestore  has changed.
 
 (C:\Users\shumy\AppData\Local\Programs\MiKTeX\tex/latex/footmisc\footmisc.sty
 Package: footmisc 2023/07/05 v6.0f a miscellany of footnote facilities
-\FN@temptoken=\toks55
-\footnotemargin=\dimen330
-\@outputbox@depth=\dimen331
+\FN@temptoken=\toks54
+\footnotemargin=\dimen323
+\@outputbox@depth=\dimen324
 Package footmisc Info: Declaring symbol style bringhurst on input line 696.
 Package footmisc Info: Declaring symbol style chicago on input line 704.
 Package footmisc Info: Declaring symbol style wiley on input line 713.
@@ -1057,20 +1012,20 @@ Package footmisc Info: Declaring symbol style lamport* on input line 744.
 Package footmisc Info: Declaring symbol style lamport*-robust on input line 765
 .
 )
-\CenteringLeftskip=\skip66
-\RaggedLeftLeftskip=\skip67
-\RaggedRightLeftskip=\skip68
-\CenteringRightskip=\skip69
-\RaggedLeftRightskip=\skip70
-\RaggedRightRightskip=\skip71
-\CenteringParfillskip=\skip72
-\RaggedLeftParfillskip=\skip73
-\RaggedRightParfillskip=\skip74
-\JustifyingParfillskip=\skip75
-\CenteringParindent=\skip76
-\RaggedLeftParindent=\skip77
-\RaggedRightParindent=\skip78
-\JustifyingParindent=\skip79
+\CenteringLeftskip=\skip64
+\RaggedLeftLeftskip=\skip65
+\RaggedRightLeftskip=\skip66
+\CenteringRightskip=\skip67
+\RaggedLeftRightskip=\skip68
+\RaggedRightRightskip=\skip69
+\CenteringParfillskip=\skip70
+\RaggedLeftParfillskip=\skip71
+\RaggedRightParfillskip=\skip72
+\JustifyingParfillskip=\skip73
+\CenteringParindent=\skip74
+\RaggedLeftParindent=\skip75
+\RaggedRightParindent=\skip76
+\JustifyingParindent=\skip77
 ) (C:\Users\shumy\AppData\Local\Programs\MiKTeX\tex/latex/tools\bm.sty
 Package: bm 2022/01/05 v1.2f Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup6
@@ -1089,40 +1044,40 @@ Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
 )
 (C:\Users\shumy\AppData\Local\Programs\MiKTeX\tex/latex/mathtools\mathtools.sty
 Package: mathtools 2024/10/04 v1.31 mathematical typesetting tools
-\g_MT_multlinerow_int=\count358
-\l_MT_multwidth_dim=\dimen332
-\origjot=\skip80
-\l_MT_shortvdotswithinadjustabove_dim=\dimen333
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen334
-\l_MT_above_intertext_sep=\dimen335
-\l_MT_below_intertext_sep=\dimen336
-\l_MT_above_shortintertext_sep=\dimen337
-\l_MT_below_shortintertext_sep=\dimen338
-\xmathstrut@box=\box131
-\xmathstrut@dim=\dimen339
+\g_MT_multlinerow_int=\count344
+\l_MT_multwidth_dim=\dimen325
+\origjot=\skip78
+\l_MT_shortvdotswithinadjustabove_dim=\dimen326
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen327
+\l_MT_above_intertext_sep=\dimen328
+\l_MT_below_intertext_sep=\dimen329
+\l_MT_above_shortintertext_sep=\dimen330
+\l_MT_below_shortintertext_sep=\dimen331
+\xmathstrut@box=\box121
+\xmathstrut@dim=\dimen332
 )
-\l_EQ_equationtype_int=\count359
-\l_EQ_alignmentmode_int=\count360
-\l_EQ_totalwidth_dim=\dimen340
-\l_EQ_displaywidth_dim=\dimen341
-\l_EQ_temp_linewidth_dim=\dimen342
-\l_EQ_linewidth_dim=\dimen343
-\EmphEqdelimitershortfall=\dimen344
-\EmphEqdelimiterfactor=\count361
-\g_EQ_toptag_height_dim=\dimen345
-\g_EQ_bottomtag_depth_dim=\dimen346
-\g_EQ_toprow_height_dim=\dimen347
-\g_EQ_bottomrow_depth_dim=\dimen348
-\g_EQ_widesttag_dim=\dimen349
-\EQ_mathdisplay_box=\box132
-\EQ_tag_box=\box133
-\g_EQ_temprow_int=\count362
+\l_EQ_equationtype_int=\count345
+\l_EQ_alignmentmode_int=\count346
+\l_EQ_totalwidth_dim=\dimen333
+\l_EQ_displaywidth_dim=\dimen334
+\l_EQ_temp_linewidth_dim=\dimen335
+\l_EQ_linewidth_dim=\dimen336
+\EmphEqdelimitershortfall=\dimen337
+\EmphEqdelimiterfactor=\count347
+\g_EQ_toptag_height_dim=\dimen338
+\g_EQ_bottomtag_depth_dim=\dimen339
+\g_EQ_toprow_height_dim=\dimen340
+\g_EQ_bottomrow_depth_dim=\dimen341
+\g_EQ_widesttag_dim=\dimen342
+\EQ_mathdisplay_box=\box122
+\EQ_tag_box=\box123
+\g_EQ_temprow_int=\count348
 )
 (C:\Users\shumy\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count363
-\l__pdf_internal_box=\box134
+\l__color_backend_stack_int=\count349
+\l__pdf_internal_box=\box124
 ) (Rel6_G5.aux)
 \openout1 = `Rel6_G5.aux'.
 
@@ -1148,17 +1103,17 @@ LaTeX Font Info:    ... okay on input line 57.
 (C:\Users\shumy\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count364
-\scratchdimen=\dimen350
-\scratchbox=\box135
-\nofMPsegments=\count365
-\nofMParguments=\count366
-\everyMPshowfont=\toks56
-\MPscratchCnt=\count367
-\MPscratchDim=\dimen351
-\MPnumerator=\count368
-\makeMPintoPDFobject=\count369
-\everyMPtoPDFconversion=\toks57
+\scratchcounter=\count350
+\scratchdimen=\dimen343
+\scratchbox=\box125
+\nofMPsegments=\count351
+\nofMParguments=\count352
+\everyMPshowfont=\toks55
+\MPscratchCnt=\count353
+\MPscratchDim=\dimen344
+\MPnumerator=\count354
+\makeMPintoPDFobject=\count355
+\everyMPtoPDFconversion=\toks56
 )
 (C:\Users\shumy\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -1212,14 +1167,6 @@ Package hyperref Info: Link coloring ON on input line 57.
 \@outlinefile=\write4
 \openout4 = `Rel6_G5.out'.
 
-
-(C:\Users\shumy\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tran
-slations-basic-dictionary-brazil.trsl
-File: translations-basic-dictionary-brazil.trsl (brazil translation file `trans
-lations-basic-dictionary')
-)
-Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `brazil'. on input line 57.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
@@ -1245,62 +1192,74 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--70
 [1
 
 {C:/Users/shumy/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 84.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 87.
 
 
 (C:\Users\shumy\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 84.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 87.
 
 
 (C:\Users\shumy\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 [2] (tabelas/tabela1.tex)
-<figuras/figura1.jpg, id=45, 787.44188pt x 209.28188pt>
+<figuras/figura1.jpg, id=41, 787.44188pt x 209.28188pt>
 File: figuras/figura1.jpg Graphic file (type jpg)
 <use figuras/figura1.jpg>
-Package pdftex.def Info: figuras/figura1.jpg  used on input line 100.
+Package pdftex.def Info: figuras/figura1.jpg  used on input line 103.
 (pdftex.def)             Requested size: 393.71997pt x 104.64067pt.
  [3 <./figuras/figura1.jpg>]
-<rgadicoas/grafico1.png, id=57, 1204.5pt x 803.0pt>
+<rgadicoas/grafico1.png, id=53, 1204.5pt x 803.0pt>
 File: rgadicoas/grafico1.png Graphic file (type png)
 <use rgadicoas/grafico1.png>
-Package pdftex.def Info: rgadicoas/grafico1.png  used on input line 141.
+Package pdftex.def Info: rgadicoas/grafico1.png  used on input line 144.
 (pdftex.def)             Requested size: 301.12427pt x 200.74951pt.
  [4 <./rgadicoas/grafico1.png>] [5]
-<rgadicoas/rgadicoa1.png, id=70, 737.00343pt x 699.36281pt>
+<rgadicoas/rgadicoa1.png, id=66, 737.00343pt x 699.36281pt>
 File: rgadicoas/rgadicoa1.png Graphic file (type png)
 <use rgadicoas/rgadicoa1.png>
-Package pdftex.def Info: rgadicoas/rgadicoa1.png  used on input line 188.
+Package pdftex.def Info: rgadicoas/rgadicoa1.png  used on input line 191.
 (pdftex.def)             Requested size: 263.47673pt x 250.02031pt.
  (tabelas/tabela2.tex)
-<figuras/figura2.jpg, id=71, 799.48688pt x 202.50656pt>
+<figuras/figura2.jpg, id=67, 799.48688pt x 202.50656pt>
 File: figuras/figura2.jpg Graphic file (type jpg)
 <use figuras/figura2.jpg>
-Package pdftex.def Info: figuras/figura2.jpg  used on input line 208.
+Package pdftex.def Info: figuras/figura2.jpg  used on input line 211.
 (pdftex.def)             Requested size: 399.74246pt x 101.25302pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[6 <./rgadicoas/rgadicoa1.png>] [7 <./figuras/figura2.jpg>] (Rel6_G5.aux)
+[6 <./rgadicoas/rgadicoa1.png>] [7 <./figuras/figura2.jpg>]
+<rgadicoas/grafico2.png, id=83, 1204.5pt x 803.0pt>
+File: rgadicoas/grafico2.png Graphic file (type png)
+<use rgadicoas/grafico2.png>
+Package pdftex.def Info: rgadicoas/grafico2.png  used on input line 246.
+(pdftex.def)             Requested size: 301.12427pt x 200.74951pt.
+<rgadicoas/rgadicoa2.png, id=84, 738.50906pt x 697.8572pt>
+File: rgadicoas/rgadicoa2.png Graphic file (type png)
+<use rgadicoas/rgadicoa2.png>
+Package pdftex.def Info: rgadicoas/rgadicoa2.png  used on input line 260.
+(pdftex.def)             Requested size: 184.62682pt x 174.46387pt.
+ [8 <./rgadicoas/grafico2.png> <./rgadicoas/rgadicoa2.png>] (tabelas/tabela3.te
+x) [9] (Rel6_G5.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
 Package rerunfilecheck Info: File `Rel6_G5.out' has not changed.
-(rerunfilecheck)             Checksum: 1620ADA6889D54D2F930A418C2563953;592.
+(rerunfilecheck)             Checksum: 0247DCA243A5162E06578B91BB4477BD;489.
  ) 
 Here is how much of TeX's memory you used:
- 42971 strings out of 475248
- 1027687 string characters out of 5757813
- 1929785 words of memory out of 5000000
- 63867 multiletter control sequences out of 15000+600000
+ 39162 strings out of 475248
+ 906590 string characters out of 5757813
+ 1930785 words of memory out of 5000000
+ 60066 multiletter control sequences out of 15000+600000
  564748 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,10n,89p,744b,962s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 83i,12n,89p,744b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\shumy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1000.pk><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx10.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/publ
@@ -1317,9 +1276,9 @@ fb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
 sfonts/cm/cmsy5.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmsy7.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts
 /type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Rel6_G5.pdf (7 pages, 535253 bytes).
+Output written on Rel6_G5.pdf (9 pages, 852023 bytes).
 PDF statistics:
- 153 PDF objects out of 1000 (max. 8388607)
- 20 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 164 PDF objects out of 1000 (max. 8388607)
+ 24 named destinations out of 1000 (max. 500000)
+ 83 words of extra memory for PDF output out of 10000 (max. 10000000)
 

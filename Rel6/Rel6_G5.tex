@@ -22,7 +22,7 @@
 %\cfoot{Página \thepage \ de \pageref{LastPage}}
 %\usepackage[Bjornstrup]{fncychap} %Sonny, Glenn, Lenny, Conny, Rejne, Bjarne, Bjornstrup
 %\usepackage{xcolor}      %color text
-\usepackage{siunitx}    %for SI units
+%\usepackage{siunitx}    %for SI units
 \usepackage{setspace}
 \onehalfspacing
 \usepackage{cleveref}
@@ -74,6 +74,9 @@ Vinicius de Melo Moraes - 231036274\\
 \newpage
 
 \section{Introdução}
+\parag O estudo da potência em regime permanente senoidal é fundamental para a compreensão do comportamento de circuitos elétricos alimentados por sinais alternados (AC). Nesse regime, as grandezas elétricas, como corrente e tensão, assumem comportamentos senoidais que podem apresentar defasagem entre si devido à presença de elementos resistivos, indutivos e capacitivos. A análise da potência envolve conceitos como o fator de potencia, este que determina a proporção de potencia ativa e reativa, as quais são essenciais para o entendimento e o projeto de sistemas elétricos eficientes.
+
+
 
 \vspace{5cm}
 \section{Materiais}
@@ -175,7 +178,7 @@ Figura 2: Triângulo de potência
 Como $fp=cos(\theta_v-\theta_i)=\frac{P}{S}$ e sabendo que $V_0=V_{R_1}+V_{carga}$, \\temos que $(V_0)^2=(V_{R_1}+V_{carga})^2$
 \[\implies|V_0|^2=|V_{R_1}|^2 + |V_{carga}|^2+2|V_{R_1}||V_{carga}|cos(\theta)\]
 Isolando $cos(\theta)$ temos 
-\[fp = cos(\theta)= \frac{|V_0|^2-|V_{R_1}|^2-|V_carga|^2}{2|V_{R_1}||V_{carga}|}\]
+\[fp = cos(\theta)= \frac{|V_0|^2-|V_{R_1}|^2-|V_{carga}|^2}{2|V_{R_1}||V_{carga}|}\]
 
 Portanto, usando os valores encontrados anteriormente, obtemos o valor de $fp$ para o circuito e eles são dispostos na Tabela 2.
 
@@ -230,13 +233,65 @@ Resolvendo esse sistema, obtemos os valores para as correntes:
 
 Com esses valores, usamos as relações $1-V_0=50\textbf{I}_1$ e $V_{carga}=(\textbf{I}_1-\textbf{I}_2)\cdot\frac{-j}{14\cdot10^{-3}}$ para encontrar $V_0=0,659+j0,0258=0,659\angle2,24\text{\textdegree}$ e $V_{carga}=0,338+j0,050=0,342\angle8,41\text{\textdegree}$.
 
-De forma análoga ao feito anterior, $V_{R_1}=V_0-V_{carga}=0,321-j0,024=0,322\angle-4,28\text{\textdegree}$. As amplitudes, fases e valores RMS são todas calculadas da mesma forma e dispostas na tabela 3.
+De forma análoga ao feito anterior, $V_{R_1}=V_0-V_{carga}=0,321-j0,024=0,322\angle-4,28\text{\textdegree}$. As amplitudes, fases e valores RMS são todos calculadas exatamente da mesma forma que antes e dispostas na Tabela 3.
+
+Além disso, $fp=0,970$, usando a fórmula disposta anteriormente.
+
+Com esses valores, monta-se o Gráfico 3, em que a senoide azul representa $V_0$ e a vermelha representa $V_{carga}$.
+
+\newpage
+\vspace{3cm}
+\begin{table}[h]
+\centering
+\includegraphics[scale=0.25]{rgadicoas/grafico2}
+\end{table}
+
+\begin{center}
+Gráfico 3: Circuito com capacitor (teórico)
+\end{center}
+
+Nota-se que a presença do capacitor "desfaz" o adiantamento proporcionado pelo indutor no primeiro circuito.
+
+Para a parte prática, repete-se o procedimento, gerando o Gráfico 4.
+
+
+\begin{table}[h]
+\centering
+\includegraphics[scale=0.25]{rgadicoas/rgadicoa2}
+\end{table}
+
+\begin{center}
+Gráfico 4: Circuito com capacitor 
+\end{center}
+
+A partir do Gráfico 4 são extraídas as informações relevantes, como:
+
+
+\begin{minipage}{0.4\textwidth}
+\begin{align*}
+V_{carga}&=0,572\angle-0,864\text{\textdegree}\\
+V_0&=0,825\angle0\text{\textdegree}\\
+V_{R_1}&=0,253\angle1,95\text{\textdegree}
+\end{align*}
+\end{minipage}
+\begin{minipage}{0.4\textwidth}
+\begin{align*}
+V_{cargaRMS}=0,404\\
+V_{0RMS}=0,583\\
+V_{R_1RMS}=0,179
+\end{align*}
+\end{minipage}
+
+\newpage
+\input{tabelas/tabela3}
 
 
 
-\section{Conclusão}
+\vspace{3cm}\section{Conclusão}
+\parag O experimento realizado permitiu analisar o comportamento da potência em circuitos elétricos no regime permanente senoidal. Observou-se que a presença de elementos resistivos, indutivos e capacitivos provoca a defasagem entre corrente e tensão, influenciando diretamente o fator de potência. Esse parâmetro se mostrou essencial para determinar a relação entre a potência ativa, responsável pelo trabalho útil no circuito, e a potência reativa, associada ao armazenamento de energia nos componentes indutivos e capacitivos.
 
-\section{Bibliografia}
+Os resultados obtidos demonstraram a importância de otimizar o fator de potência para garantir maior eficiência nos sistemas elétricos, reduzindo perdas e melhorando o desempenho geral dos circuitos. Dessa forma, o experimento reforçou a relevância do estudo da potência no regime senoidal e a aplicação prática dos conceitos teóricos em projetos e análises de sistemas elétricos.
+
 
 \section{Bibliografia}
 
