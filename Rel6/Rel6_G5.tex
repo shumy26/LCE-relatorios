@@ -146,20 +146,6 @@ Gráfico 1: Circuito sem capacitor (teórico)
 \end{center}
 
 \newpage
-Usando o osciloscópio do Elvis, são medidas as tensões $V_0$ e $V_{carga}$, obtidas no Gráfico 2. Esses valores são usados para obter $V_{R_1}$ e são encontrados na Tabela 2. 
-
-
-
-\begin{table}[h]
-\centering
-\includegraphics[scale=0.38]{rgadicoas/rgadicoa1}
-\end{table}
-
-\begin{center}
-Gráfico 2: Circuito sem capacitor
-\end{center}
-
-
 
 
 Para obter o fator de potência, usa-se a seguinte fórmula:
@@ -174,10 +160,15 @@ que é consequência do triângulo de potência, em que o fator de potência é 
 \begin{tikzpicture}
 \draw (0,0)--(4,3)--(4,0)--(0,0);
 \draw node at (2,2) {\textbf{S}};
-\draw node at (4.5,1.5) {\textbf{P}};
+\draw node at (2,-0.7) {\textbf{P}};
+\draw node at (4.5,1.5) {\textbf{Q}};
 \draw (1,0) arc (0:38:1cm);
 \draw node at (1.5,0.4) {$\theta_v-\theta_i$}; 
 \end{tikzpicture}
+\end{center}
+
+\begin{center}
+Figura 2: Triângulo de potência
 \end{center}
 
 
@@ -187,6 +178,24 @@ Isolando $cos(\theta)$ temos
 \[fp = cos(\theta)= \frac{|V_0|^2-|V_{R_1}|^2-|V_carga|^2}{2|V_{R_1}||V_{carga}|}\]
 
 Portanto, usando os valores encontrados anteriormente, obtemos o valor de $fp$ para o circuito e eles são dispostos na Tabela 2.
+
+Usando o osciloscópio do Elvis, são medidas as tensões $V_0$ e $V_{carga}$, obtidas no Gráfico 2. Esses valores são usados para obter $V_{R_1}$ e são encontrados na Tabela 2. 
+
+
+
+\begin{table}[h]
+\centering
+\includegraphics[scale=0.3575]{rgadicoas/rgadicoa1}
+\end{table}
+
+\begin{center}
+Gráfico 2: Circuito sem capacitor
+\end{center}
+
+Assim, pode-se observar que experimentalmente os valores são $V_0=0,782\angle0\text{\textdegree}$ e $V_{carga}=0,55\angle$
+
+
+
 
 \input{tabelas/tabela2}
 
