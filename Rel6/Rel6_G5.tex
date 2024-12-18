@@ -155,7 +155,7 @@ Para obter o fator de potência, usa-se a seguinte fórmula:
 que é consequência do triângulo de potência, em que o fator de potência é o ângulo $\theta_v-\theta_i$
 
 
-
+\vspace{2cm}
 \begin{center}
 \begin{tikzpicture}
 \draw (0,0)--(4,3)--(4,0)--(0,0);
@@ -170,7 +170,7 @@ que é consequência do triângulo de potência, em que o fator de potência é 
 \begin{center}
 Figura 2: Triângulo de potência
 \end{center}
-
+\vspace{2cm}
 
 Como $fp=cos(\theta_v-\theta_i)=\frac{P}{S}$ e sabendo que $V_0=V_{R_1}+V_{carga}$, \\temos que $(V_0)^2=(V_{R_1}+V_{carga})^2$
 \[\implies|V_0|^2=|V_{R_1}|^2 + |V_{carga}|^2+2|V_{R_1}||V_{carga}|cos(\theta)\]
@@ -181,7 +181,7 @@ Portanto, usando os valores encontrados anteriormente, obtemos o valor de $fp$ p
 
 Usando o osciloscópio do Elvis, são medidas as tensões $V_0$ e $V_{carga}$, obtidas no Gráfico 2. Esses valores são usados para obter $V_{R_1}$ e são encontrados na Tabela 2. 
 
-
+\newpage
 
 \begin{table}[h]
 \centering
@@ -192,12 +192,46 @@ Usando o osciloscópio do Elvis, são medidas as tensões $V_0$ e $V_{carga}$, o
 Gráfico 2: Circuito sem capacitor
 \end{center}
 
-Assim, pode-se observar que experimentalmente os valores são $V_0=0,782\angle0\text{\textdegree}$ e $V_{carga}=0,55\angle$
+Assim, pode-se observar que experimentalmente os valores são $V_{0RMS}=0,553\angle0\text{\textdegree}$ e $V_{cargaRMS}=0,389\angle21,31\text{\textdegree},$ simplesmente como antes dividindo a amplitude por $\sqrt{2}$ e a fase é encontrada facilmente convertendo o dt de 4,22$\mu s$ para graus, usando a frequência de 14000Hz.
 
+De forma análoga ao anterior, encontra-se $V_{R_1}=V_0-V_{carga}$ e seu valor RMS é simplesmente dividir esse valor por $\sqrt{2}$.
 
-
-
+\vspace{1cm}
 \input{tabelas/tabela2}
+
+\vspace{1cm}
+Em seguida, é introduzido o capacitor no circuito, como indicado na Figura 3. 
+
+\vspace{3cm}
+\begin{table}[h]
+\centering
+\includegraphics[scale=0.5]{figuras/figura2}
+\end{table}
+
+\begin{center}
+Figura 3: Circuito com capacitor 
+\end{center}
+
+Usando análise de malhas para descobrir $V_0$ e $V_{carga}$ obtemos o seguinte sistema:
+
+\begin{equation*}
+\left\{
+\begin{aligned}
+50\textbf{I}_1+47\textbf{I}_2-j(\textbf{I}_1-\textbf{I}_2)=1\\
+-\frac{j}{1,4\cdot10^{-3}}(\textbf{I}_2-\textbf{I}_1)+(47+j14)\textbf{I}_2=0
+\end{aligned}\right.
+\end{equation*}
+
+Resolvendo esse sistema, obtemos os valores para as correntes:
+
+\[\textbf{I}_1=0,0068254-j0,0005160\]
+\[\textbf{I}_2=0,0068955-j0,009891\]
+
+
+Com esses valores, usamos as relações $1-V_0=50\textbf{I}_1$ e $V_{carga}=(\textbf{I}_1-\textbf{I}_2)\cdot\frac{-j}{14\cdot10^{-3}}$ para encontrar $V_0=0,659+j0,0258=0,659\angle2,24\text{\textdegree}$ e $V_{carga}=0,338+j0,050=0,342\angle8,41\text{\textdegree}$.
+
+De forma análoga ao feito anterior, $V_{R_1}=V_0-V_{carga}=0,321-j0,024=0,322\angle-4,28\text{\textdegree}$. As amplitudes, fases e valores RMS são todas calculadas da mesma forma e dispostas na tabela 3.
+
 
 
 \section{Conclusão}

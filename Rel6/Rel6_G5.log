@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.28)  17 DEC 2024 23:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.28)  18 DEC 2024 18:54
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1269,21 +1269,23 @@ File: rgadicoas/grafico1.png Graphic file (type png)
 <use rgadicoas/grafico1.png>
 Package pdftex.def Info: rgadicoas/grafico1.png  used on input line 141.
 (pdftex.def)             Requested size: 301.12427pt x 200.74951pt.
- [4 <./rgadicoas/grafico1.png>]
-<rgadicoas/rgadicoa1.png, id=66, 737.00343pt x 699.36281pt>
+ [4 <./rgadicoas/grafico1.png>] [5]
+<rgadicoas/rgadicoa1.png, id=70, 737.00343pt x 699.36281pt>
 File: rgadicoas/rgadicoa1.png Graphic file (type png)
 <use rgadicoas/rgadicoa1.png>
 Package pdftex.def Info: rgadicoas/rgadicoa1.png  used on input line 188.
 (pdftex.def)             Requested size: 263.47673pt x 250.02031pt.
+ (tabelas/tabela2.tex)
+<figuras/figura2.jpg, id=71, 799.48688pt x 202.50656pt>
+File: figuras/figura2.jpg Graphic file (type jpg)
+<use figuras/figura2.jpg>
+Package pdftex.def Info: figuras/figura2.jpg  used on input line 208.
+(pdftex.def)             Requested size: 399.74246pt x 101.25302pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-(tabelas/tabela2.tex
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [5] [6 <./rgadicoas/rgadicoa1.png>] (Rel6_G5.aux)
+[6 <./rgadicoas/rgadicoa1.png>] [7 <./figuras/figura2.jpg>] (Rel6_G5.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -1292,13 +1294,13 @@ Package rerunfilecheck Info: File `Rel6_G5.out' has not changed.
 (rerunfilecheck)             Checksum: 1620ADA6889D54D2F930A418C2563953;592.
  ) 
 Here is how much of TeX's memory you used:
- 42956 strings out of 475248
- 1027343 string characters out of 5757813
- 1930785 words of memory out of 5000000
- 63854 multiletter control sequences out of 15000+600000
+ 42971 strings out of 475248
+ 1027687 string characters out of 5757813
+ 1929785 words of memory out of 5000000
+ 63867 multiletter control sequences out of 15000+600000
  564748 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,10n,89p,744b,899s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 83i,10n,89p,744b,962s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\shumy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1000.pk><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx10.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/publ
@@ -1312,10 +1314,12 @@ humy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/
 Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.p
 fb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
 /cmsy10.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
-sfonts/symbols/msam10.pfb>
-Output written on Rel6_G5.pdf (6 pages, 488955 bytes).
+sfonts/cm/cmsy5.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmsy7.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on Rel6_G5.pdf (7 pages, 535253 bytes).
 PDF statistics:
- 134 PDF objects out of 1000 (max. 8388607)
- 18 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 153 PDF objects out of 1000 (max. 8388607)
+ 20 named destinations out of 1000 (max. 500000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
