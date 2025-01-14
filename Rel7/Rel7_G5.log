@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.28)  14 JAN 2025 00:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.28)  14 JAN 2025 19:46
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1192,18 +1192,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--70
 [1
 
 {C:/Users/shumy/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-(tabelas/tabela1.tex
-LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 82.
+
 
 (C:\Users\shumy\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 82.
+
 
 (C:\Users\shumy\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
-(tabelas/tabela2.tex
+)
+[2] (tabelas/tabela1.tex) (tabelas/tabela2.tex
 Overfull \hbox (30.57147pt too wide) in paragraph at lines 4--32
  [][] 
  []
@@ -1224,7 +1225,7 @@ Overfull \hbox (30.57147pt too wide) in paragraph at lines 4--32
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [2] [3] [4] (Rel7_G5.aux)
+) [3] [4] [5] (Rel7_G5.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -1233,10 +1234,10 @@ Package rerunfilecheck Info: File `Rel7_G5.out' has not changed.
 (rerunfilecheck)             Checksum: 9701DE6050EAB9C64DC46D2149889E43;295.
  ) 
 Here is how much of TeX's memory you used:
- 38975 strings out of 475248
- 902118 string characters out of 5757813
- 1964785 words of memory out of 5000000
- 59890 multiletter control sequences out of 15000+600000
+ 38980 strings out of 475248
+ 902204 string characters out of 5757813
+ 1966785 words of memory out of 5000000
+ 59894 multiletter control sequences out of 15000+600000
  564070 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,10n,89p,744b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1249,9 +1250,9 @@ X/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/shumy/AppData/Local/Progra
 ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/shumy/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/shumy/AppDa
 ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Rel7_G5.pdf (4 pages, 99502 bytes).
+Output written on Rel7_G5.pdf (5 pages, 103474 bytes).
 PDF statistics:
- 85 PDF objects out of 1000 (max. 8388607)
- 12 named destinations out of 1000 (max. 500000)
+ 91 PDF objects out of 1000 (max. 8388607)
+ 13 named destinations out of 1000 (max. 500000)
  37 words of extra memory for PDF output out of 10000 (max. 10000000)
 
