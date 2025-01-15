@@ -90,8 +90,169 @@ Vinicius de Melo Moraes - 231036274\\
 
 \input{tabelas/tabela1}
 
+Em seguida, esses componentes são dispostos na configuração mostrada na Figura 1.
+
+\begin{table}[h]
+\centering
+\includegraphics[scale=0.5]{figuras/circuito1}
+\end{table}
+
+\begin{center}
+Figura 1: Circuito RLC com medição no capacitor
+\end{center}
+
+Usando o o gerador de funções do Elvis para gerar um onda senoidal com 4 Vpp, offset zero e frequência 10kHz e osciloscópio integrado ao Elvis para medir as tensões $V_0$ e $V_1$, é obtido o Gráfico 1.
+
+
+\begin{table}[h]
+\centering
+\includegraphics[scale=0.7]{graficos/circ1/rgadicoa1-2-10}
+\end{table}
+
+\begin{center}
+Gráfico 1: Coleta das tensões $V_1$ e $V_0$ no capacitor a 10kHz
+\end{center}
+
+Com isso obtemos os valores das amplitudes $|V_0|$, $|V_1|$ e a sua diferença de fase obtida através do dt, multiplicando simplesmente o dt por $\omega\cdot2\pi$. Como $\omega = 10^4$, a diferença de fase é de $-43.20$\textdegree, as amplitudes são $|V_0|=1.55V$, $|V_1|=1.81V$. Além disso, usando os valores das amplitudes das tensões é calculado o ganho da amplitude em decibéis através da fórmula $20log_{10}\left(\frac{|V_1|}{|V_0|}\right) = 1.347$ e esses valores são todos adicionados à Tabela 2.
+
+Para o cálculo dos valores teóricos, é usada a fórmula de divisor de tensão para identificar os valores de $V_0$ e $V_1$. Na frequência de 10kHz, a impedância total do circuito é de $97-j990$ e a do capacitor é de $-j1000$. Portanto,
+
+\[V_0 = 2\cdot\frac{47-j990}{97-j990}=1.57\angle-19.19\text{\textdegree}V\]
+\[V_1=2\cdot\frac{-j1000}{97-j990}=2.33\angle-45.20\text{\textdegree}V\]
+\[20log_{10}\left(\frac{|V_1|}{|V_0|}\right)=3.434\]
+\[\text{Diferença de fase: }26.01\text{\textdegree}\]
+
+Esses valores também são adicionados à Tabela 2.
+
+Em seguida, o processo é repetido com as frequências de 12.5kHz, 15.5kHz, 19.3kHz, 24.1kHz e 30kHz. Como as contas são todas completamente análogas, elas serão omitidas, mas seus resultados constam na Tabela 2. Seguem a seguir o gráfico 2, Gráfico 3, Gráfico 4, Gráfico 5 e Gráfico 6 para as próximas frequências.
+
+
+\begin{table}[h]
+\centering
+\includegraphics[scale=0.7]{graficos/circ1/rgadicoa1-2-12_5}
+\end{table}
+
+\begin{center}
+Gráfico 2: Coleta das tensões $V_1$ e $V_0$ no capacitor a 12.5kHz
+\end{center}
+
+\newpage
+\begin{table}[h]
+\centering
+\includegraphics[scale=0.7]{graficos/circ1/rgadicoa1-2-15_5}
+\end{table}
+
+\begin{center}
+Gráfico 3: Coleta das tensões $V_1$ e $V_0$ no capacitor a 15.5kHz
+\end{center}
+
+
+\begin{table}[h]
+\centering
+\includegraphics[scale=0.7]{graficos/circ1/rgadicoa1-2-19_3}
+\end{table}
+
+\begin{center}
+Gráfico 4: Coleta das tensões $V_1$ e $V_0$ no capacitor a 19.3kHz
+\end{center}
+
+\newpage
+\begin{table}[h]
+\centering
+\includegraphics[scale=0.7]{graficos/circ1/rgadicoa1-2-24_1}
+\end{table}
+
+\begin{center}
+Gráfico 5: Coleta das tensões $V_1$ e $V_0$ no capacitor a 24.1kHz
+\end{center}
+
+
+\begin{table}[h]
+\centering
+\includegraphics[scale=0.7]{graficos/circ1/rgadicoa1-2-30}
+\end{table}
+
+\begin{center}
+Gráfico 6: Coleta das tensões $V_1$ e $V_0$ no capacitor a 30kHz
+\end{center}
+
+\newpage
 \input{tabelas/tabela2}
 
+
+Agora que a Tabela 2 está completa, o circuito sofre uma alteração e sua configuração agora é de acordo com a Figura 2:
+
+\begin{table}[h]
+\centering
+\includegraphics[scale=0.5]{figuras/circuito2}
+\end{table}
+
+\begin{center}
+Figura 2: Circuito RLC com medição no resistor.
+\end{center}
+
+No entanto, todas as medições são exatamente análogas, mudando apenas que no divisor de tensão usa-se agora a resistência de 47$\Omega$ em vez da impedância do capacitor, portanto serão omitidas. Seguem os gráficos obtidos experimentalmente.
+
+\newpage
+\begin{table}[h]
+\centering
+\includegraphics[scale=0.7]{graficos/circ2/rgadicoa2-2-10}
+\end{table}
+
+\begin{center}
+Gráfico 7: Coleta das tensões $V_1$ e $V_0$ no resistor a 10kHz
+\end{center}
+
+\begin{table}[h]
+\centering
+\includegraphics[scale=0.7]{graficos/circ2/rgadicoa2-2-12_5}
+\end{table}
+
+\begin{center}
+Gráfico 8: Coleta das tensões $V_1$ e $V_0$ no resistor a 12.5kHz
+\end{center}
+
+\newpage
+\begin{table}[h]
+\centering
+\includegraphics[scale=0.7]{graficos/circ2/rgadicoa2-2-15_5}
+\end{table}
+
+\begin{center}
+Gráfico 9: Coleta das tensões $V_1$ e $V_0$ no resistor a 15.5kHz
+\end{center}
+
+\begin{table}[h]
+\centering
+\includegraphics[scale=0.7]{graficos/circ2/rgadicoa2-2-19_3}
+\end{table}
+
+\begin{center}
+Gráfico 10: Coleta das tensões $V_1$ e $V_0$ no resistor a 19.3kHz
+\end{center}
+
+\newpage
+\begin{table}[h]
+\centering
+\includegraphics[scale=0.7]{graficos/circ2/rgadicoa2-2-24_1}
+\end{table}
+
+\begin{center}
+Gráfico 11: Coleta das tensões $V_1$ e $V_0$ no resistor a 24.1kHz
+\end{center}
+
+\begin{table}[h]
+\centering
+\includegraphics[scale=0.7]{graficos/circ2/rgadicoa2-2-30}
+\end{table}
+
+\begin{center}
+Gráfico 12: Coleta das tensões $V_1$ e $V_0$ no resistor a 30kHz
+\end{center}
+
+Todos os valores para o segundo circuito estão na Tabela 3.
+
+\newpage
 \input{tabelas/tabela3}
 
 \input{tabelas/tabela4}

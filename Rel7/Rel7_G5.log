@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.28)  14 JAN 2025 19:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.28)  15 JAN 2025 01:00
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1204,18 +1204,120 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 82.
 (C:\Users\shumy\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-[2] (tabelas/tabela1.tex) (tabelas/tabela2.tex
+[2] (tabelas/tabela1.tex)
+<figuras/circuito1.jpg, id=33, 879.285pt x 191.21437pt>
+File: figuras/circuito1.jpg Graphic file (type jpg)
+<use figuras/circuito1.jpg>
+Package pdftex.def Info: figuras/circuito1.jpg  used on input line 97.
+(pdftex.def)             Requested size: 439.64143pt x 95.60695pt.
+
+Overfull \hbox (21.38776pt too wide) in paragraph at lines 97--98
+ [][] 
+ []
+
+<graficos/circ1/rgadicoa1-2-10.png, id=34, 350.81062pt x 335.75438pt>
+File: graficos/circ1/rgadicoa1-2-10.png Graphic file (type png)
+<use graficos/circ1/rgadicoa1-2-10.png>
+Package pdftex.def Info: graficos/circ1/rgadicoa1-2-10.png  used on input line 
+109.
+(pdftex.def)             Requested size: 245.56575pt x 235.02646pt.
+[3 <./figuras/circuito1.jpg> <./graficos/circ1/rgadicoa1-2-10.png>]
+<graficos/circ1/rgadicoa1-2-12_5.png, id=46, 353.06906pt x 338.01282pt>
+File: graficos/circ1/rgadicoa1-2-12_5.png Graphic file (type png)
+<use graficos/circ1/rgadicoa1-2-12_5.png>
+Package pdftex.def Info: graficos/circ1/rgadicoa1-2-12_5.png  used on input lin
+e 132.
+(pdftex.def)             Requested size: 247.14665pt x 236.60735pt.
+ [4 <./graficos/circ1/rgadicoa1-2-12_5.png>]
+<graficos/circ1/rgadicoa1-2-15_5.png, id=58, 356.83313pt x 338.76563pt>
+File: graficos/circ1/rgadicoa1-2-15_5.png Graphic file (type png)
+<use graficos/circ1/rgadicoa1-2-15_5.png>
+Package pdftex.def Info: graficos/circ1/rgadicoa1-2-15_5.png  used on input lin
+e 142.
+(pdftex.def)             Requested size: 249.78148pt x 237.13431pt.
+<graficos/circ1/rgadicoa1-2-19_3.png, id=59, 356.83313pt x 336.50719pt>
+File: graficos/circ1/rgadicoa1-2-19_3.png Graphic file (type png)
+<use graficos/circ1/rgadicoa1-2-19_3.png>
+Package pdftex.def Info: graficos/circ1/rgadicoa1-2-19_3.png  used on input lin
+e 152.
+(pdftex.def)             Requested size: 249.78148pt x 235.5534pt.
+ [5 <./graficos/circ1/rgadicoa1-2-15_5.png> <./graficos/circ1/rgadicoa1-2-19_3.
+png>]
+<graficos/circ1/rgadicoa1-2-24_1.png, id=68, 354.57469pt x 333.49594pt>
+File: graficos/circ1/rgadicoa1-2-24_1.png Graphic file (type png)
+<use graficos/circ1/rgadicoa1-2-24_1.png>
+Package pdftex.def Info: graficos/circ1/rgadicoa1-2-24_1.png  used on input lin
+e 162.
+(pdftex.def)             Requested size: 248.20059pt x 233.44556pt.
+<graficos/circ1/rgadicoa1-2-30.png, id=69, 353.06906pt x 337.26pt>
+File: graficos/circ1/rgadicoa1-2-30.png Graphic file (type png)
+<use graficos/circ1/rgadicoa1-2-30.png>
+Package pdftex.def Info: graficos/circ1/rgadicoa1-2-30.png  used on input line 
+172.
+(pdftex.def)             Requested size: 247.14665pt x 236.08038pt.
+ [6 <./graficos/circ1/rgadicoa1-2-24_1.png> <./graficos/circ1/rgadicoa1-2-30.pn
+g>] (tabelas/tabela2.tex
 Overfull \hbox (30.57147pt too wide) in paragraph at lines 4--32
  [][] 
  []
 
-) (tabelas/tabela3.tex
-Overfull \hbox (30.57147pt too wide) in paragraph at lines 4--32
+)
+<figuras/circuito2.jpg, id=78, 910.90312pt x 213.79875pt>
+File: figuras/circuito2.jpg Graphic file (type jpg)
+<use figuras/circuito2.jpg>
+Package pdftex.def Info: figuras/circuito2.jpg  used on input line 187.
+(pdftex.def)             Requested size: 455.45044pt x 106.89911pt.
+
+Overfull \hbox (37.19676pt too wide) in paragraph at lines 187--188
  [][] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
+[7 <./figuras/circuito2.jpg>]
+<graficos/circ2/rgadicoa2-2-10.png, id=86, 353.82187pt x 336.50719pt>
+File: graficos/circ2/rgadicoa2-2-10.png Graphic file (type png)
+<use graficos/circ2/rgadicoa2-2-10.png>
+Package pdftex.def Info: graficos/circ2/rgadicoa2-2-10.png  used on input line 
+199.
+(pdftex.def)             Requested size: 247.67361pt x 235.5534pt.
+<graficos/circ2/rgadicoa2-2-12_5.png, id=87, 352.31625pt x 335.75438pt>
+File: graficos/circ2/rgadicoa2-2-12_5.png Graphic file (type png)
+<use graficos/circ2/rgadicoa2-2-12_5.png>
+Package pdftex.def Info: graficos/circ2/rgadicoa2-2-12_5.png  used on input lin
+e 208.
+(pdftex.def)             Requested size: 246.61969pt x 235.02646pt.
+ [8 <./graficos/circ2/rgadicoa2-2-10.png> <./graficos/circ2/rgadicoa2-2-12_5.pn
+g>]
+<graficos/circ2/rgadicoa2-2-15_5.png, id=96, 355.3275pt x 339.51843pt>
+File: graficos/circ2/rgadicoa2-2-15_5.png Graphic file (type png)
+<use graficos/circ2/rgadicoa2-2-15_5.png>
+Package pdftex.def Info: graficos/circ2/rgadicoa2-2-15_5.png  used on input lin
+e 218.
+(pdftex.def)             Requested size: 248.72754pt x 237.66127pt.
+<graficos/circ2/rgadicoa2-2-19_3.png, id=97, 355.3275pt x 331.99031pt>
+File: graficos/circ2/rgadicoa2-2-19_3.png Graphic file (type png)
+<use graficos/circ2/rgadicoa2-2-19_3.png>
+Package pdftex.def Info: graficos/circ2/rgadicoa2-2-19_3.png  used on input lin
+e 227.
+(pdftex.def)             Requested size: 248.72754pt x 232.39162pt.
+ [9 <./graficos/circ2/rgadicoa2-2-15_5.png> <./graficos/circ2/rgadicoa2-2-19_3.
+png>]
+<graficos/circ2/rgadicoa2-2-24_1.png, id=106, 356.0803pt x 338.01282pt>
+File: graficos/circ2/rgadicoa2-2-24_1.png Graphic file (type png)
+<use graficos/circ2/rgadicoa2-2-24_1.png>
+Package pdftex.def Info: graficos/circ2/rgadicoa2-2-24_1.png  used on input lin
+e 237.
+(pdftex.def)             Requested size: 249.25452pt x 236.60735pt.
+<graficos/circ2/rgadicoa2-2-30.png, id=107, 353.82187pt x 338.01282pt>
+File: graficos/circ2/rgadicoa2-2-30.png Graphic file (type png)
+<use graficos/circ2/rgadicoa2-2-30.png>
+Package pdftex.def Info: graficos/circ2/rgadicoa2-2-30.png  used on input line 
+246.
+(pdftex.def)             Requested size: 247.67361pt x 236.60735pt.
+ [10 <./graficos/circ2/rgadicoa2-2-24_1.png> <./graficos/circ2/rgadicoa2-2-30.p
+ng>] (tabelas/tabela3.tex
+Overfull \hbox (30.57147pt too wide) in paragraph at lines 4--32
+ [][] 
+ []
 
 ) (tabelas/tabela4.tex
 Overfull \hbox (30.57147pt too wide) in paragraph at lines 4--32
@@ -1225,7 +1327,7 @@ Overfull \hbox (30.57147pt too wide) in paragraph at lines 4--32
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [3] [4] [5] (Rel7_G5.aux)
+) [11] [12] (Rel7_G5.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -1234,25 +1336,31 @@ Package rerunfilecheck Info: File `Rel7_G5.out' has not changed.
 (rerunfilecheck)             Checksum: 9701DE6050EAB9C64DC46D2149889E43;295.
  ) 
 Here is how much of TeX's memory you used:
- 38980 strings out of 475248
- 902204 string characters out of 5757813
- 1966785 words of memory out of 5000000
- 59894 multiletter control sequences out of 15000+600000
- 564070 words of font info for 58 fonts, out of 8000000 for 9000
+ 39167 strings out of 475248
+ 908586 string characters out of 5757813
+ 1951785 words of memory out of 5000000
+ 60058 multiletter control sequences out of 15000+600000
+ 564748 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,10n,89p,744b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\shumy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1000.pk><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx10.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmbx12.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmmi10.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/shumy/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/shumy/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/shumy/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Rel7_G5.pdf (5 pages, 103474 bytes).
+ype1/public/amsfonts/cm/cmex10.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/shumy/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/shumy/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/shumy/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/s
+humy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/
+Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.p
+fb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmsy7.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/symbols/msam10.pfb>
+Output written on Rel7_G5.pdf (12 pages, 343725 bytes).
 PDF statistics:
- 91 PDF objects out of 1000 (max. 8388607)
- 13 named destinations out of 1000 (max. 500000)
- 37 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 190 PDF objects out of 1000 (max. 8388607)
+ 34 named destinations out of 1000 (max. 500000)
+ 107 words of extra memory for PDF output out of 10000 (max. 10000000)
 
