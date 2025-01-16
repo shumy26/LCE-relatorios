@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.28)  15 JAN 2025 01:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.28)  15 JAN 2025 21:57
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1205,7 +1205,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 82.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 [2] (tabelas/tabela1.tex)
-<figuras/circuito1.jpg, id=33, 879.285pt x 191.21437pt>
+<figuras/circuito1.jpg, id=41, 879.285pt x 191.21437pt>
 File: figuras/circuito1.jpg Graphic file (type jpg)
 <use figuras/circuito1.jpg>
 Package pdftex.def Info: figuras/circuito1.jpg  used on input line 97.
@@ -1215,27 +1215,27 @@ Overfull \hbox (21.38776pt too wide) in paragraph at lines 97--98
  [][] 
  []
 
-<graficos/circ1/rgadicoa1-2-10.png, id=34, 350.81062pt x 335.75438pt>
+<graficos/circ1/rgadicoa1-2-10.png, id=42, 350.81062pt x 335.75438pt>
 File: graficos/circ1/rgadicoa1-2-10.png Graphic file (type png)
 <use graficos/circ1/rgadicoa1-2-10.png>
 Package pdftex.def Info: graficos/circ1/rgadicoa1-2-10.png  used on input line 
 109.
 (pdftex.def)             Requested size: 245.56575pt x 235.02646pt.
 [3 <./figuras/circuito1.jpg> <./graficos/circ1/rgadicoa1-2-10.png>]
-<graficos/circ1/rgadicoa1-2-12_5.png, id=46, 353.06906pt x 338.01282pt>
+<graficos/circ1/rgadicoa1-2-12_5.png, id=54, 353.06906pt x 338.01282pt>
 File: graficos/circ1/rgadicoa1-2-12_5.png Graphic file (type png)
 <use graficos/circ1/rgadicoa1-2-12_5.png>
 Package pdftex.def Info: graficos/circ1/rgadicoa1-2-12_5.png  used on input lin
 e 132.
 (pdftex.def)             Requested size: 247.14665pt x 236.60735pt.
  [4 <./graficos/circ1/rgadicoa1-2-12_5.png>]
-<graficos/circ1/rgadicoa1-2-15_5.png, id=58, 356.83313pt x 338.76563pt>
+<graficos/circ1/rgadicoa1-2-15_5.png, id=66, 356.83313pt x 338.76563pt>
 File: graficos/circ1/rgadicoa1-2-15_5.png Graphic file (type png)
 <use graficos/circ1/rgadicoa1-2-15_5.png>
 Package pdftex.def Info: graficos/circ1/rgadicoa1-2-15_5.png  used on input lin
 e 142.
 (pdftex.def)             Requested size: 249.78148pt x 237.13431pt.
-<graficos/circ1/rgadicoa1-2-19_3.png, id=59, 356.83313pt x 336.50719pt>
+<graficos/circ1/rgadicoa1-2-19_3.png, id=67, 356.83313pt x 336.50719pt>
 File: graficos/circ1/rgadicoa1-2-19_3.png Graphic file (type png)
 <use graficos/circ1/rgadicoa1-2-19_3.png>
 Package pdftex.def Info: graficos/circ1/rgadicoa1-2-19_3.png  used on input lin
@@ -1243,13 +1243,13 @@ e 152.
 (pdftex.def)             Requested size: 249.78148pt x 235.5534pt.
  [5 <./graficos/circ1/rgadicoa1-2-15_5.png> <./graficos/circ1/rgadicoa1-2-19_3.
 png>]
-<graficos/circ1/rgadicoa1-2-24_1.png, id=68, 354.57469pt x 333.49594pt>
+<graficos/circ1/rgadicoa1-2-24_1.png, id=76, 354.57469pt x 333.49594pt>
 File: graficos/circ1/rgadicoa1-2-24_1.png Graphic file (type png)
 <use graficos/circ1/rgadicoa1-2-24_1.png>
 Package pdftex.def Info: graficos/circ1/rgadicoa1-2-24_1.png  used on input lin
 e 162.
 (pdftex.def)             Requested size: 248.20059pt x 233.44556pt.
-<graficos/circ1/rgadicoa1-2-30.png, id=69, 353.06906pt x 337.26pt>
+<graficos/circ1/rgadicoa1-2-30.png, id=77, 353.06906pt x 337.26pt>
 File: graficos/circ1/rgadicoa1-2-30.png Graphic file (type png)
 <use graficos/circ1/rgadicoa1-2-30.png>
 Package pdftex.def Info: graficos/circ1/rgadicoa1-2-30.png  used on input line 
@@ -1262,7 +1262,7 @@ Overfull \hbox (30.57147pt too wide) in paragraph at lines 4--32
  []
 
 )
-<figuras/circuito2.jpg, id=78, 910.90312pt x 213.79875pt>
+<figuras/circuito2.jpg, id=86, 910.90312pt x 213.79875pt>
 File: figuras/circuito2.jpg Graphic file (type jpg)
 <use figuras/circuito2.jpg>
 Package pdftex.def Info: figuras/circuito2.jpg  used on input line 187.
@@ -1273,13 +1273,13 @@ Overfull \hbox (37.19676pt too wide) in paragraph at lines 187--188
  []
 
 [7 <./figuras/circuito2.jpg>]
-<graficos/circ2/rgadicoa2-2-10.png, id=86, 353.82187pt x 336.50719pt>
+<graficos/circ2/rgadicoa2-2-10.png, id=94, 353.82187pt x 336.50719pt>
 File: graficos/circ2/rgadicoa2-2-10.png Graphic file (type png)
 <use graficos/circ2/rgadicoa2-2-10.png>
 Package pdftex.def Info: graficos/circ2/rgadicoa2-2-10.png  used on input line 
 199.
 (pdftex.def)             Requested size: 247.67361pt x 235.5534pt.
-<graficos/circ2/rgadicoa2-2-12_5.png, id=87, 352.31625pt x 335.75438pt>
+<graficos/circ2/rgadicoa2-2-12_5.png, id=95, 352.31625pt x 335.75438pt>
 File: graficos/circ2/rgadicoa2-2-12_5.png Graphic file (type png)
 <use graficos/circ2/rgadicoa2-2-12_5.png>
 Package pdftex.def Info: graficos/circ2/rgadicoa2-2-12_5.png  used on input lin
@@ -1287,13 +1287,13 @@ e 208.
 (pdftex.def)             Requested size: 246.61969pt x 235.02646pt.
  [8 <./graficos/circ2/rgadicoa2-2-10.png> <./graficos/circ2/rgadicoa2-2-12_5.pn
 g>]
-<graficos/circ2/rgadicoa2-2-15_5.png, id=96, 355.3275pt x 339.51843pt>
+<graficos/circ2/rgadicoa2-2-15_5.png, id=104, 355.3275pt x 339.51843pt>
 File: graficos/circ2/rgadicoa2-2-15_5.png Graphic file (type png)
 <use graficos/circ2/rgadicoa2-2-15_5.png>
 Package pdftex.def Info: graficos/circ2/rgadicoa2-2-15_5.png  used on input lin
 e 218.
 (pdftex.def)             Requested size: 248.72754pt x 237.66127pt.
-<graficos/circ2/rgadicoa2-2-19_3.png, id=97, 355.3275pt x 331.99031pt>
+<graficos/circ2/rgadicoa2-2-19_3.png, id=105, 355.3275pt x 331.99031pt>
 File: graficos/circ2/rgadicoa2-2-19_3.png Graphic file (type png)
 <use graficos/circ2/rgadicoa2-2-19_3.png>
 Package pdftex.def Info: graficos/circ2/rgadicoa2-2-19_3.png  used on input lin
@@ -1301,13 +1301,13 @@ e 227.
 (pdftex.def)             Requested size: 248.72754pt x 232.39162pt.
  [9 <./graficos/circ2/rgadicoa2-2-15_5.png> <./graficos/circ2/rgadicoa2-2-19_3.
 png>]
-<graficos/circ2/rgadicoa2-2-24_1.png, id=106, 356.0803pt x 338.01282pt>
+<graficos/circ2/rgadicoa2-2-24_1.png, id=114, 356.0803pt x 338.01282pt>
 File: graficos/circ2/rgadicoa2-2-24_1.png Graphic file (type png)
 <use graficos/circ2/rgadicoa2-2-24_1.png>
 Package pdftex.def Info: graficos/circ2/rgadicoa2-2-24_1.png  used on input lin
 e 237.
 (pdftex.def)             Requested size: 249.25452pt x 236.60735pt.
-<graficos/circ2/rgadicoa2-2-30.png, id=107, 353.82187pt x 338.01282pt>
+<graficos/circ2/rgadicoa2-2-30.png, id=115, 353.82187pt x 338.01282pt>
 File: graficos/circ2/rgadicoa2-2-30.png Graphic file (type png)
 <use graficos/circ2/rgadicoa2-2-30.png>
 Package pdftex.def Info: graficos/circ2/rgadicoa2-2-30.png  used on input line 
@@ -1319,48 +1319,204 @@ Overfull \hbox (30.57147pt too wide) in paragraph at lines 4--32
  [][] 
  []
 
-) (tabelas/tabela4.tex
+)
+<figuras/circuito3.jpg, id=124, 889.07156pt x 216.05719pt>
+File: figuras/circuito3.jpg Graphic file (type jpg)
+<use figuras/circuito3.jpg>
+Package pdftex.def Info: figuras/circuito3.jpg  used on input line 262.
+(pdftex.def)             Requested size: 444.5347pt x 108.02832pt.
+
+Overfull \hbox (26.28102pt too wide) in paragraph at lines 262--263
+ [][] 
+ []
+
+[11 <./figuras/circuito3.jpg>]
+<graficos/circ3/rgadicoa3-2-10.png, id=131, 356.0803pt x 338.76563pt>
+File: graficos/circ3/rgadicoa3-2-10.png Graphic file (type png)
+<use graficos/circ3/rgadicoa3-2-10.png>
+Package pdftex.def Info: graficos/circ3/rgadicoa3-2-10.png  used on input line 
+274.
+(pdftex.def)             Requested size: 249.25452pt x 237.13431pt.
+<graficos/circ3/rgadicoa3-2-12_5.png, id=132, 351.56343pt x 336.50719pt>
+File: graficos/circ3/rgadicoa3-2-12_5.png Graphic file (type png)
+<use graficos/circ3/rgadicoa3-2-12_5.png>
+Package pdftex.def Info: graficos/circ3/rgadicoa3-2-12_5.png  used on input lin
+e 284.
+(pdftex.def)             Requested size: 246.09271pt x 235.5534pt.
+ [12 <./graficos/circ3/rgadicoa3-2-10.png> <./graficos/circ3/rgadicoa3-2-12_5.p
+ng>]
+<graficos/circ3/rgadicoa3-2-15_5.png, id=141, 353.82187pt x 334.24875pt>
+File: graficos/circ3/rgadicoa3-2-15_5.png Graphic file (type png)
+<use graficos/circ3/rgadicoa3-2-15_5.png>
+Package pdftex.def Info: graficos/circ3/rgadicoa3-2-15_5.png  used on input lin
+e 294.
+(pdftex.def)             Requested size: 247.67361pt x 233.97252pt.
+<graficos/circ3/rgadicoa3-2-19_3.png, id=142, 356.83313pt x 340.27126pt>
+File: graficos/circ3/rgadicoa3-2-19_3.png Graphic file (type png)
+<use graficos/circ3/rgadicoa3-2-19_3.png>
+Package pdftex.def Info: graficos/circ3/rgadicoa3-2-19_3.png  used on input lin
+e 304.
+(pdftex.def)             Requested size: 249.78148pt x 238.18825pt.
+ [13 <./graficos/circ3/rgadicoa3-2-15_5.png> <./graficos/circ3/rgadicoa3-2-19_3
+.png>]
+<graficos/circ3/rgadicoa3-2-24_1.png, id=152, 351.56343pt x 333.49594pt>
+File: graficos/circ3/rgadicoa3-2-24_1.png Graphic file (type png)
+<use graficos/circ3/rgadicoa3-2-24_1.png>
+Package pdftex.def Info: graficos/circ3/rgadicoa3-2-24_1.png  used on input lin
+e 314.
+(pdftex.def)             Requested size: 246.09271pt x 233.44556pt.
+<graficos/circ3/rgadicoa3-2-30.png, id=153, 348.55219pt x 335.75438pt>
+File: graficos/circ3/rgadicoa3-2-30.png Graphic file (type png)
+<use graficos/circ3/rgadicoa3-2-30.png>
+Package pdftex.def Info: graficos/circ3/rgadicoa3-2-30.png  used on input line 
+324.
+(pdftex.def)             Requested size: 243.98485pt x 235.02646pt.
+ [14 <./graficos/circ3/rgadicoa3-2-24_1.png> <./graficos/circ3/rgadicoa3-2-30.p
+ng>] (tabelas/tabela4.tex
 Overfull \hbox (30.57147pt too wide) in paragraph at lines 4--32
  [][] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [11] [12] (Rel7_G5.aux)
+) [15]
+<figuras/bode-circ1.png, id=168, 803.0pt x 803.0pt>
+File: figuras/bode-circ1.png Graphic file (type png)
+<use figuras/bode-circ1.png>
+Package pdftex.def Info: figuras/bode-circ1.png  used on input line 353.
+(pdftex.def)             Requested size: 361.34666pt x 361.34666pt.
+<figuras/pontosamplitude1-1.jpg, id=169, 218.31563pt x 188.95593pt>
+File: figuras/pontosamplitude1-1.jpg Graphic file (type jpg)
+<use figuras/pontosamplitude1-1.jpg>
+Package pdftex.def Info: figuras/pontosamplitude1-1.jpg  used on input line 358
+.
+(pdftex.def)             Requested size: 130.99037pt x 113.37442pt.
+<figuras/pontosamplitude1.jpg, id=170, 218.31563pt x 193.47281pt>
+File: figuras/pontosamplitude1.jpg Graphic file (type jpg)
+<use figuras/pontosamplitude1.jpg>
+Package pdftex.def Info: figuras/pontosamplitude1.jpg  used on input line 358.
+(pdftex.def)             Requested size: 122.2559pt x 108.34402pt.
+ [16 <./figuras/bode-circ1.png> <./figuras/pontosamplitude1-1.jpg> <./figuras/p
+ontosamplitude1.jpg>]
+<figuras/circ1-fase.png, id=178, 803.0pt x 803.0pt>
+File: figuras/circ1-fase.png Graphic file (type png)
+<use figuras/circ1-fase.png>
+Package pdftex.def Info: figuras/circ1-fase.png  used on input line 373.
+(pdftex.def)             Requested size: 361.34666pt x 361.34666pt.
+<figuras/pontosfase1-1.jpg, id=179, 245.41687pt x 227.34938pt>
+File: figuras/pontosfase1-1.jpg Graphic file (type jpg)
+<use figuras/pontosfase1-1.jpg>
+Package pdftex.def Info: figuras/pontosfase1-1.jpg  used on input line 378.
+(pdftex.def)             Requested size: 122.70813pt x 113.67441pt.
+<figuras/pontosfase1.jpg, id=180, 250.68657pt x 222.8325pt>
+File: figuras/pontosfase1.jpg Graphic file (type jpg)
+<use figuras/pontosfase1.jpg>
+Package pdftex.def Info: figuras/pontosfase1.jpg  used on input line 378.
+(pdftex.def)             Requested size: 125.34297pt x 111.41597pt.
+ [17 <./figuras/circ1-fase.png> <./figuras/pontosfase1-1.jpg> <./figuras/pontos
+fase1.jpg>]
+<figuras/bode-circ2.png, id=188, 803.0pt x 803.0pt>
+File: figuras/bode-circ2.png Graphic file (type png)
+<use figuras/bode-circ2.png>
+Package pdftex.def Info: figuras/bode-circ2.png  used on input line 391.
+(pdftex.def)             Requested size: 341.27661pt x 341.27661pt.
+<figuras/pontosamplitude2-1.jpg, id=189, 230.36063pt x 188.95593pt>
+File: figuras/pontosamplitude2-1.jpg Graphic file (type jpg)
+<use figuras/pontosamplitude2-1.jpg>
+Package pdftex.def Info: figuras/pontosamplitude2-1.jpg  used on input line 396
+.
+(pdftex.def)             Requested size: 138.21742pt x 113.37442pt.
+<figuras/pontosamplitude2.jpg, id=190, 216.05719pt x 177.66376pt>
+File: figuras/pontosamplitude2.jpg Graphic file (type jpg)
+<use figuras/pontosamplitude2.jpg>
+Package pdftex.def Info: figuras/pontosamplitude2.jpg  used on input line 396.
+(pdftex.def)             Requested size: 129.6353pt x 106.59906pt.
+ [18 <./figuras/bode-circ2.png> <./figuras/pontosamplitude2-1.jpg> <./figuras/p
+ontosamplitude2.jpg>]
+<figuras/circ2-fase.png, id=198, 803.0pt x 803.0pt>
+File: figuras/circ2-fase.png Graphic file (type png)
+<use figuras/circ2-fase.png>
+Package pdftex.def Info: figuras/circ2-fase.png  used on input line 409.
+(pdftex.def)             Requested size: 361.34666pt x 361.34666pt.
+<figuras/pontosfase2-1.jpg, id=199, 231.86626pt x 228.855pt>
+File: figuras/pontosfase2-1.jpg Graphic file (type jpg)
+<use figuras/pontosfase2-1.jpg>
+Package pdftex.def Info: figuras/pontosfase2-1.jpg  used on input line 414.
+(pdftex.def)             Requested size: 115.93283pt x 114.42722pt.
+<figuras/pontosfase2.jpg, id=200, 234.1247pt x 221.32687pt>
+File: figuras/pontosfase2.jpg Graphic file (type jpg)
+<use figuras/pontosfase2.jpg>
+Package pdftex.def Info: figuras/pontosfase2.jpg  used on input line 414.
+(pdftex.def)             Requested size: 117.06206pt x 110.66315pt.
+ [19 <./figuras/circ2-fase.png> <./figuras/pontosfase2-1.jpg> <./figuras/pontos
+fase2.jpg>]
+<figuras/bode-circ3.png, id=209, 803.0pt x 803.0pt>
+File: figuras/bode-circ3.png Graphic file (type png)
+<use figuras/bode-circ3.png>
+Package pdftex.def Info: figuras/bode-circ3.png  used on input line 428.
+(pdftex.def)             Requested size: 341.27661pt x 341.27661pt.
+<figuras/pontosamplitude3-1.jpg, id=210, 223.58531pt x 190.46156pt>
+File: figuras/pontosamplitude3-1.jpg Graphic file (type jpg)
+<use figuras/pontosamplitude3-1.jpg>
+Package pdftex.def Info: figuras/pontosamplitude3-1.jpg  used on input line 433
+.
+(pdftex.def)             Requested size: 111.79237pt x 95.23053pt.
+<figuras/pontosamplitude3.jpg, id=211, 201.75375pt x 180.675pt>
+File: figuras/pontosamplitude3.jpg Graphic file (type jpg)
+<use figuras/pontosamplitude3.jpg>
+Package pdftex.def Info: figuras/pontosamplitude3.jpg  used on input line 433.
+(pdftex.def)             Requested size: 100.87662pt x 90.33727pt.
+ [20 <./figuras/bode-circ3.png> <./figuras/pontosamplitude3-1.jpg> <./figuras/p
+ontosamplitude3.jpg>]
+<figuras/circ3-fase.png, id=219, 803.0pt x 803.0pt>
+File: figuras/circ3-fase.png Graphic file (type png)
+<use figuras/circ3-fase.png>
+Package pdftex.def Info: figuras/circ3-fase.png  used on input line 446.
+(pdftex.def)             Requested size: 361.34666pt x 361.34666pt.
+<figuras/pontosfase3-1.jpg, id=220, 237.88875pt x 227.34938pt>
+File: figuras/pontosfase3-1.jpg Graphic file (type jpg)
+<use figuras/pontosfase3-1.jpg>
+Package pdftex.def Info: figuras/pontosfase3-1.jpg  used on input line 451.
+(pdftex.def)             Requested size: 118.94408pt x 113.67441pt.
+<figuras/pontosfase3.jpg, id=221, 217.5628pt x 225.09094pt>
+File: figuras/pontosfase3.jpg Graphic file (type jpg)
+<use figuras/pontosfase3.jpg>
+Package pdftex.def Info: figuras/pontosfase3.jpg  used on input line 451.
+(pdftex.def)             Requested size: 108.78113pt x 112.54518pt.
+ [21 <./figuras/circ3-fase.png> <./figuras/pontosfase3-1.jpg> <./figuras/pontos
+fase3.jpg>] [22] (Rel7_G5.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
 Package rerunfilecheck Info: File `Rel7_G5.out' has not changed.
-(rerunfilecheck)             Checksum: 9701DE6050EAB9C64DC46D2149889E43;295.
+(rerunfilecheck)             Checksum: 0247DCA243A5162E06578B91BB4477BD;489.
  ) 
 Here is how much of TeX's memory you used:
- 39167 strings out of 475248
- 908586 string characters out of 5757813
- 1951785 words of memory out of 5000000
- 60058 multiletter control sequences out of 15000+600000
+ 39502 strings out of 475248
+ 918890 string characters out of 5757813
+ 1945785 words of memory out of 5000000
+ 60362 multiletter control sequences out of 15000+600000
  564748 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,10n,89p,744b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 83i,10n,89p,750b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\shumy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1000.pk><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx10.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmbx12.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmex10.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTe
 X/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/shumy/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/shumy/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/shumy/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/s
-humy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/
-Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.p
-fb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmsy10.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmsy7.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/symbols/msam10.pfb>
-Output written on Rel7_G5.pdf (12 pages, 343725 bytes).
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/shumy/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/shumy/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/s
+humy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
+/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.
+pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmr7.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmsy7.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on Rel7_G5.pdf (22 pages, 822925 bytes).
 PDF statistics:
- 190 PDF objects out of 1000 (max. 8388607)
- 34 named destinations out of 1000 (max. 500000)
- 107 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 308 PDF objects out of 1000 (max. 8388607)
+ 65 named destinations out of 1000 (max. 500000)
+ 248 words of extra memory for PDF output out of 10000 (max. 10000000)
 

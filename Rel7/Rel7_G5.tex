@@ -74,7 +74,7 @@ Vinicius de Melo Moraes - 231036274\\
 \newpage
 
 \section{Introdução}
-
+\parag O experimento tem como objetivo principal analisar as respostas em frequência de circuitos que apresentam resistência, indutância e capacitância em diferentes configurações. Por meio da variação da frequência do sinal de entrada, são obtidos os comportamentos de amplitude e fase, que são representados graficamente no Diagrama de Bode. Este tipo de análise permite identificar características importantes do circuito, como frequência de ressonância, largura de banda e comportamento em altas e baixas frequências. A abordagem experimental possibilita compreender a influência dos parâmetros do circuito sobre a resposta em frequência e sua aplicação em filtros e sistemas de controle.
 
 \section{Materiais}
 	\begin{itemize}
@@ -120,7 +120,7 @@ Para o cálculo dos valores teóricos, é usada a fórmula de divisor de tensão
 \[V_0 = 2\cdot\frac{47-j990}{97-j990}=1.57\angle-19.19\text{\textdegree}V\]
 \[V_1=2\cdot\frac{-j1000}{97-j990}=2.33\angle-45.20\text{\textdegree}V\]
 \[20log_{10}\left(\frac{|V_1|}{|V_0|}\right)=3.434\]
-\[\text{Diferença de fase: }26.01\text{\textdegree}\]
+\[\text{Diferença de fase: }-26.01\text{\textdegree}\]
 
 Esses valores também são adicionados à Tabela 2.
 
@@ -255,7 +255,215 @@ Todos os valores para o segundo circuito estão na Tabela 3.
 \newpage
 \input{tabelas/tabela3}
 
+Assim como foi feito anteriormente, agora o circuito muda mais uma vez e fica de acordo com a Figura 3.
+
+\begin{table}[h]
+\centering
+\includegraphics[scale=0.5]{figuras/circuito3}
+\end{table}
+
+\begin{center}
+Figura 2: Circuito RLC com medição no indutor.
+\end{center}
+
+Novamente, os cálculos são completamente análogos, mudando apenas a fórmula do divisor de tensão para a tensão no indutor. Logo, os cálculos serão omitidos e seus resultados dispostos na Tabela 4, logo após os gráficos experimentais.
+
+	\newpage
+	\begin{table}[h]
+	\centering
+	\includegraphics[scale=0.7]{graficos/circ3/rgadicoa3-2-10}
+	\end{table}
+	
+	\begin{center}
+	Gráfico 13: Coleta das tensões $V_1$ e $V_0$ no indutor a 10kHz
+	\end{center}
+
+	
+	\begin{table}[h]
+	\centering
+	\includegraphics[scale=0.7]{graficos/circ3/rgadicoa3-2-12_5}
+	\end{table}
+	
+	\begin{center}
+	Gráfico 14: Coleta das tensões $V_1$ e $V_0$ no indutor a 12.5kHz
+	\end{center}
+
+	\newpage
+	\begin{table}[h]
+	\centering
+	\includegraphics[scale=0.7]{graficos/circ3/rgadicoa3-2-15_5}
+	\end{table}
+	
+	\begin{center}
+	Gráfico 15: Coleta das tensões $V_1$ e $V_0$ no indutor a 15.5kHz
+	\end{center}
+
+	
+	\begin{table}[h]
+	\centering
+	\includegraphics[scale=0.7]{graficos/circ3/rgadicoa3-2-19_3}
+	\end{table}
+	
+	\begin{center}
+	Gráfico 16: Coleta das tensões $V_1$ e $V_0$ no indutor a 19.3kHz
+	\end{center}
+
+	\newpage
+	\begin{table}[h]
+	\centering
+	\includegraphics[scale=0.7]{graficos/circ3/rgadicoa3-2-24_1}
+	\end{table}
+	
+	\begin{center}
+	Gráfico 17: Coleta das tensões $V_1$ e $V_0$ no indutor a 24.1kHz
+	\end{center}
+
+	
+	\begin{table}[h]
+	\centering
+	\includegraphics[scale=0.7]{graficos/circ3/rgadicoa3-2-30}
+	\end{table}
+	
+	\begin{center}
+	Gráfico 18: Coleta das tensões $V_1$ e $V_0$ no indutor a 30kHz
+	\end{center}
+
+Todos os valores para o terceiro circuito estão na Tabela 4.
+
+\newpage
 \input{tabelas/tabela4}
+
+\vspace{1cm}
+Agora que temos todos os dados, passamos para a análise dos diagramas de Bode.
+O diagrama de Bode é obtido através da análise em escala logarítmica da função de transferência do circuito no domínio fasorial. Para obter $H(j\omega)$, um dos métodos é através da técnica de divisores de tensão, isto é, utilizando a relação $V1 = V_0\cdot\left(\frac{Z_{carga}}{Z_{eq}}\right)$, obtém-se a razão V1/V0, equivalente à função de transferência. 
+
+Para a resposta em amplitude, utiliza-se o módulo da função de transferência, sendo este convertido pelo fator $20log_{10}$, de modo que a análise do efeito da frequência passa a ser feita por década, oferecendo uma resposta em decibéis (dB), assim facilitando a análise para diferentes escalas de frequência.
+
+Além disso, para o espectro de fase do circuito, calcula-se o ângulo da função de transferência, de modo que para obter a resposta, utilizamos a função arctan para definir o ângulo.
+
+Para o circuito 1, onde a carga é o capacitor, tem-se a função de transferência $$H(j\omega)=\frac{-j10^7}{97\omega+j\frac{\omega^2}{1000} -j10^7}$$ de modo que sua resposta em amplitude resulta na figura 4 e sua resposta em frequência resulta na figura 5.
+
+\newpage
+
+\[|H(j\omega)|_{dB}=20log_{10}\left(\left|\frac{-j10^7}{97\omega+j\frac{\omega^2}{1000} -j10^7}\right|\right)\]
+
+\textbf{$|H(j\omega)|$}
+\begin{table}[h]
+\centering
+\includegraphics[scale=0.45]{figuras/bode-circ1}
+\end{table}\vspace{-9.75cm}\marginpar{\textbf{$\omega$}}
+\vspace{9.75cm}
+\begin{table}[hb]
+\centering
+\includegraphics[scale=0.6]{figuras/pontosamplitude1-1}\includegraphics[scale=0.56]{figuras/pontosamplitude1}
+\end{table}
+\begin{center}
+Figura 4: Diagrama de Bode da resposta em amplitude no circuito 1.
+\end{center}
+
+O traçado vermelho é o Diagrama de Bode usando os valores teóricos, enquanto os pontos são os experimentais e eles são definidos abaixo do diagrama.
+
+
+\newpage
+\[\angle H(j\omega) = \frac{\angle-j10^7}{\angle(97\omega+j\frac{\omega^2}{1000} -j10^7)}= -\frac{\pi}{2}-arctan\left(\frac{\frac{\omega}{1000}-\frac{10^7}{\omega}}{97}\right)\]
+ 
+$\angle H(j\omega)$
+\begin{table}[h]
+\centering
+\includegraphics[scale=0.45]{figuras/circ1-fase}
+\end{table}\vspace{-6.75cm}\marginpar{\textbf{$\omega$}}
+\vspace{6.75cm}
+\begin{table}[hb]
+\centering
+\includegraphics[scale=0.5]{figuras/pontosfase1-1}\includegraphics[scale=0.5]{figuras/pontosfase1}
+\end{table}
+\begin{center}
+Figura 5: Diagrama de Bode da resposta em fase no circuito 1.
+\end{center}
+
+Para o circuito 2, onde a carga é o resistor, tem-se a função de transferência $$H(j\omega)=\frac{47\omega}{97\omega+j\frac{\omega^2}{1000}-j10^7}$$ de modo que sua resposta em amplitude resulta na Figura 6 e sua resposta em frequência resulta na Figura 7.
+
+\[|H(j\omega)|_{dB} = 20log_{10}\left(\left|\frac{47\omega}{97\omega+j\frac{\omega^2}{1000}-j10^7}\right|\right)\]
+
+$|H(j\omega)|$
+\begin{table}[h]
+\centering
+\includegraphics[scale=0.425]{figuras/bode-circ2}
+\end{table}\vspace{-9.5cm}\marginpar{\textbf{$\omega$}}
+\vspace{9.5cm}
+\begin{table}[hb]
+\centering
+\includegraphics[scale=0.6]{figuras/pontosamplitude2-1}\includegraphics[scale=0.6]{figuras/pontosamplitude2}
+\end{table}
+\begin{center}
+Figura 6: Diagrama de Bode da resposta em amplitude no circuito 2.
+\end{center}
+
+
+\newpage
+\[\angle H(j\omega) = \angle 47\omega - \angle\left(97\omega+j\frac{\omega^2}{1000} -j10^7\right)=-arctan\left(\frac{\left(\frac{\omega}{1000}-\frac{10^7}{\omega}\right)}{97}\right)\]
+
+\hspace{0.5cm}$\angle H(j\omega)$
+\begin{table}[h]
+\centering
+\includegraphics[scale=0.45]{figuras/circ2-fase}
+\end{table}\vspace{-6.75cm}\marginpar{\textbf{$\omega$}}
+\vspace{6.5cm}
+\begin{table}[h]
+\centering
+\includegraphics[scale=0.5]{figuras/pontosfase2-1}\includegraphics[scale=0.5]{figuras/pontosfase2}
+\end{table}
+\begin{center}
+Figura 7: Diagrama de Bode da resposta em fase no circuito 2.
+\end{center}
+
+Para o circuito 3, onde a carga é o indutor, tem-se a função de transferência $$H(j\omega)=\frac{j\frac{\omega^2}{1000}}{97\omega+j\frac{\omega^2}{1000}-j10^7}$$ de modo que sua resposta em amplitude resulta na Figura 8 e sua resposta em frequência resulta na Figura 9.
+
+\[|H(j\omega)|_{dB} = 20log_{10}\left(\left| \frac{j\frac{\omega^2}{1000}}{97\omega+j\frac{\omega^2}{1000}-j10^7} \right|\right)   \]
+
+
+$|H(j\omega)|$
+\begin{table}[h]
+\centering
+\includegraphics[scale=0.425]{figuras/bode-circ3}
+\end{table}\vspace{-9.5cm}\marginpar{\textbf{$\omega$}}
+\vspace{9cm}
+\begin{table}[h]
+\centering
+\includegraphics[scale=0.5]{figuras/pontosamplitude3-1}\includegraphics[scale=0.5]{figuras/pontosamplitude3}
+\end{table}
+\begin{center}
+Figura 8: Diagrama de Bode da resposta em amplitude no circuito 3.
+\end{center}
+
+
+\newpage
+\[\angle H(j\omega) = \angle\left(j\frac{\omega^2}{1000} \right)- \angle\left(97\omega+j\frac{\omega^2}{1000}-j10^7\right) = \frac{\pi}{2}-arctan\left(\frac{\left(\frac{\omega}{1000}-\frac{10^7}{\omega}\right)}{97}\right)\]
+
+\hspace{0.5cm}$\angle H(j\omega)$
+\begin{table}[h]
+\centering
+\includegraphics[scale=0.45]{figuras/circ3-fase}
+\end{table}\vspace{-6.75cm}\marginpar{\textbf{$\omega$}}
+\vspace{6.5cm}
+\begin{table}[h]
+\centering
+\includegraphics[scale=0.5]{figuras/pontosfase3-1}\includegraphics[scale=0.5]{figuras/pontosfase3}
+\end{table}
+\begin{center}
+Figura 9: Diagrama de Bode da resposta em fase no circuito 3.
+\end{center}
+
+
+\section{Conclusão}
+\parag O experimento permitiu a análise detalhada das respostas de amplitude e fase em função da frequência, evidenciando o impacto dos componentes resistivos, indutivos e capacitivos no comportamento do circuito. Foi possível determinar a frequência de ressonância, identificar regiões de ganho e atenuação e observar o comportamento de fase em diferentes faixas de frequência. Essas informações são fundamentais para o projeto e a aplicação de circuitos em sistemas que demandam controle de frequência, como filtros e amplificadores, consolidando a importância do Diagrama de Bode como ferramenta de análise no regime de sinais alternados.
+
+
+\section{Bibliografia}
+
+\begin{itemize}
+\item HALLIDAY, D.; RESNICK, R.; WALKER, J. Fundamentos de Física. 10. ed. v. 3. Rio de Janeiro: LTC, 2016.
+\end{itemize}
 
 
 \end{document}
