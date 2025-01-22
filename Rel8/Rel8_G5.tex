@@ -1,0 +1,143 @@
+\documentclass[a4 paper]{article}
+%\usepackage{minted}           %embedding code
+\usepackage{amsmath, amsthm, amsfonts} %always use amsmath for symbols, amsthm for theorems 
+\usepackage{graphicx}  % for pictures
+%\usepackage{lipsum}  % for test text
+\usepackage{multicol}    % for multicollumn text
+\usepackage[bottom=2.5cm]{geometry}   %to set the margins to your liking
+\usepackage[skip = 10pt, indent = 30pt]{parskip}      %to set the distance between paragraphs
+\usepackage{tcolorbox}           %for literal color boxes
+%\usepackage{witharrows}             % understandable, arrows for equations
+\usepackage{tikz}                   %drawings and diagrams
+\usetikzlibrary{positioning}        %tikz library for positioning (of nodes?)
+\usepackage{pgfplots}               %plotting and graphs
+\pgfplotsset{compat=1.18, width = 10cm}
+\usepackage{hyperref}
+\hypersetup{colorlinks = true, linkcolor = black, urlcolor = blue}
+%\usepackage{fancyvrb}           % fancy formatting of verbatim
+%\usepackage{fancyhdr, lastpage}
+%\pagestyle{fancy} 
+%\lhead{Relat\'orio experimento 4}
+%\rhead{FisExpI}
+%\cfoot{Página \thepage \ de \pageref{LastPage}}
+%\usepackage[Bjornstrup]{fncychap} %Sonny, Glenn, Lenny, Conny, Rejne, Bjarne, Bjornstrup
+%\usepackage{xcolor}      %color text
+%\usepackage{siunitx}    %for SI units
+\usepackage{setspace}
+\onehalfspacing
+\usepackage{cleveref}
+\usepackage[brazil]{babel}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{pdfpages}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage[document]{ragged2e}
+\usepackage{bm}
+\usepackage{empheq}
+
+
+
+
+%\setlength{\hoffset}{-2cm}
+%\setlength{\voffset}{1.5cm}                     %control your margins however you want!
+%\setlength{\marginparwidth}{2cm}
+%\setlength{\oddsidemargin}{0cm}
+
+%\newtheorem{theorem}{Theorem}[section]               %how you call it and how you display it
+%\newtheorem{corollary}{Corollary}[theorem]
+
+
+\newcommand{\parag}{\hspace{30pt}}
+%\newcommand{\pd}[2]{\frac{\partial#1}{\partial#2}}
+
+
+\begin{document}
+
+
+\justifying
+\begin{center}{\large Laboratório de Circuitos Elétricos - 02/2024 - Turma 05}\\
+{\large \textbf{Experimento 8}}\\ 
+16/01/2025
+\end{center}
+
+\vspace{500pt}
+ \noindent\textbf{Grupo 5:}\\
+ Yuri Shumyatsky - 231012826\\
+Vinicius de Melo Moraes - 231036274\\
+
+
+
+\vspace{30pt}
+\newpage
+
+\section{Introdução}
+
+\section{Materiais}
+	\begin{itemize}
+	\item Fonte DC - Agilent E3631A
+	\item Multímetro - Agilent 34410A
+	\item Protoboard
+	\item 1 chip UA741CN (amplificador operacional)
+	\item 1 resistor de $1k\Omega$
+	\item 1 resistor de $2.2k\Omega$
+	\end{itemize}
+
+\newpage
+
+\section{Procedimentos}
+\parag É feita a medição dos valores dos componentes utilizados e essas informações são dispostas na Tabela 1.
+
+\input{tabelas/tabela1}
+
+Os componentes são dispostos no Circuito 1, como mostrado na Figura 1. Os valores de $v_0 =1V$, $V^+=10V$ e $V^-=-10V$.
+
+\begin{table}[h]
+\centering
+\includegraphics[scale=0.4]{figuras/circuito1}
+\end{table}
+\begin{center}
+Figura 1: Disposição do Circuito 1
+\end{center}
+
+Esse circuito é um amplificador inversor, fazendo com que a tensão de saída seja inversa e de módulo maior que a tensão de entrada. 
+
+Considerando um Amplificador Operacional ideal, devido ao conceito do curto virtual, $i_-=i_+=0$ assim como $v_-=v_+ =0$. Além disso, para um Amplificador Inversor, vale a relação $v_1=-\frac{R_2}{R_1}v_0$.
+
+Os dados são coletados usando o Multímetro e seus resultados são dispostos na Tabela 2.
+
+\input{tabelas/tabela2}
+
+Nota-se que por conta dos valores esperados serem 0, a fórmula de erro relativa não é muito adequada. No entanto, os valores medidos encontram-se dentro do esperado.
+
+\newpage
+Em seguida, é montado o circuito 2 que é um Amplificador não Inversor.
+
+\begin{table}[h]
+\centering
+\includegraphics[scale=0.4]{figuras/circuito2}
+\end{table}
+\begin{center}
+Figura 2: Disposição do Circuito 2
+\end{center}
+
+O procedimento é todo exatamente o mesmo, mudando apenas que para esse circuito o ganho é ditado por $v_1=(1+\frac{R_2}{R_1})v_0$.
+
+Feitas todas as medições, os dados são dispostos na Tabela 3.
+
+\input{tabelas/tabela3}
+
+
+
+
+
+\section{Conclusão}
+
+\section{Bibliografia}
+\begin{itemize}
+\item HALLIDAY, D.; RESNICK, R.; WALKER, J. Fundamentos de Física. 10. ed. v. 3. Rio de Janeiro: LTC, 2016.
+\end{itemize}
+
+\end{document}
