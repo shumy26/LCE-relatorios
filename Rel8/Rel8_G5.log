@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.28)  21 JAN 2025 21:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.28)  22 JAN 2025 22:01
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1192,29 +1192,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--70
 [1
 
 {C:/Users/shumy/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 84.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 86.
 
 
 (C:\Users\shumy\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 84.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 86.
 
 
 (C:\Users\shumy\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 [2] (tabelas/tabela1.tex)
-<figuras/circuito1.jpg, id=41, 688.07062pt x 432.11438pt>
+<figuras/circuito1.jpg, id=37, 688.07062pt x 432.11438pt>
 File: figuras/circuito1.jpg Graphic file (type jpg)
 <use figuras/circuito1.jpg>
-Package pdftex.def Info: figuras/circuito1.jpg  used on input line 99.
+Package pdftex.def Info: figuras/circuito1.jpg  used on input line 101.
 (pdftex.def)             Requested size: 275.22337pt x 172.84268pt.
  (tabelas/tabela2.tex) [3 <./figuras/circuito1.jpg>]
-<figuras/circuito2.jpg, id=54, 670.75594pt x 398.99063pt>
+<figuras/circuito2.jpg, id=50, 670.75594pt x 398.99063pt>
 File: figuras/circuito2.jpg Graphic file (type jpg)
 <use figuras/circuito2.jpg>
-Package pdftex.def Info: figuras/circuito2.jpg  used on input line 120.
+Package pdftex.def Info: figuras/circuito2.jpg  used on input line 122.
 (pdftex.def)             Requested size: 268.2976pt x 159.59341pt.
 
 (tabelas/tabela3.tex) [4 <./figuras/circuito2.jpg>] (Rel8_G5.aux)
@@ -1222,14 +1222,21 @@ Package pdftex.def Info: figuras/circuito2.jpg  used on input line 120.
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
-Package rerunfilecheck Info: File `Rel8_G5.out' has not changed.
-(rerunfilecheck)             Checksum: 0247DCA243A5162E06578B91BB4477BD;489.
+
+
+Package rerunfilecheck Warning: File `Rel8_G5.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Rel8_G5.out':
+(rerunfilecheck)             Before: F0F3EDB2511B440CDD7FB6ED3968AF2F;398
+(rerunfilecheck)             After:  0247DCA243A5162E06578B91BB4477BD;489.
  ) 
 Here is how much of TeX's memory you used:
- 39001 strings out of 475248
- 902712 string characters out of 5757813
+ 39003 strings out of 475248
+ 902725 string characters out of 5757813
  1931785 words of memory out of 5000000
- 59916 multiletter control sequences out of 15000+600000
+ 59918 multiletter control sequences out of 15000+600000
  564070 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,9n,89p,744b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1246,9 +1253,9 @@ my/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Us
 ers/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.p
 fb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
 /cmsy7.pfb>
-Output written on Rel8_G5.pdf (4 pages, 187635 bytes).
+Output written on Rel8_G5.pdf (4 pages, 188363 bytes).
 PDF statistics:
- 112 PDF objects out of 1000 (max. 8388607)
+ 109 PDF objects out of 1000 (max. 8388607)
  15 named destinations out of 1000 (max. 500000)
- 63 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 55 words of extra memory for PDF output out of 10000 (max. 10000000)
 
