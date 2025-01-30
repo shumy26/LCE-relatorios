@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.28)  29 JAN 2025 19:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.28)  29 JAN 2025 21:53
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1228,57 +1228,80 @@ File: graficos/RGADICOA3.png Graphic file (type png)
 <use graficos/RGADICOA3.png>
 Package pdftex.def Info: graficos/RGADICOA3.png  used on input line 12.
 (pdftex.def)             Requested size: 247.67361pt x 236.08038pt.
- [4 <./graficos/RGADICOA1.png> <./graficos/RGADICOA3.png>]
-<graficos/RGADICOA5.png, id=63, 353.82187pt x 335.75438pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[4 <./graficos/RGADICOA1.png>]
+<graficos/RGADICOA5.png, id=65, 353.82187pt x 335.75438pt>
 File: graficos/RGADICOA5.png Graphic file (type png)
 <use graficos/RGADICOA5.png>
 Package pdftex.def Info: graficos/RGADICOA5.png  used on input line 21.
 (pdftex.def)             Requested size: 247.67361pt x 235.02646pt.
-<graficos/RGADICOA7.png, id=64, 351.56343pt x 332.74312pt>
+<graficos/RGADICOA7.png, id=66, 351.56343pt x 332.74312pt>
 File: graficos/RGADICOA7.png Graphic file (type png)
 <use graficos/RGADICOA7.png>
 Package pdftex.def Info: graficos/RGADICOA7.png  used on input line 30.
 (pdftex.def)             Requested size: 246.09271pt x 232.91858pt.
- [5 <./graficos/RGADICOA5.png> <./graficos/RGADICOA7.png>]
-<graficos/RGADICOA9.png, id=73, 350.05782pt x 332.74312pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5 <./graficos/RGADICOA3.png> <./graficos/RGADICOA5.png>]
+<graficos/RGADICOA9.png, id=75, 350.05782pt x 332.74312pt>
 File: graficos/RGADICOA9.png Graphic file (type png)
 <use graficos/RGADICOA9.png>
 Package pdftex.def Info: graficos/RGADICOA9.png  used on input line 39.
 (pdftex.def)             Requested size: 245.03879pt x 232.91858pt.
-<graficos/RGADICOA11.png, id=74, 347.04657pt x 334.24875pt>
+<graficos/RGADICOA11.png, id=76, 347.04657pt x 334.24875pt>
 File: graficos/RGADICOA11.png Graphic file (type png)
 <use graficos/RGADICOA11.png>
 Package pdftex.def Info: graficos/RGADICOA11.png  used on input line 48.
 (pdftex.def)             Requested size: 242.93094pt x 233.97252pt.
- [6 <./graficos/RGADICOA9.png> <./graficos/RGADICOA11.png>]
-<graficos/RGADICOA13.png, id=83, 349.305pt x 335.75438pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[6 <./graficos/RGADICOA7.png> <./graficos/RGADICOA9.png>]
+<graficos/RGADICOA13.png, id=85, 349.305pt x 335.75438pt>
 File: graficos/RGADICOA13.png Graphic file (type png)
 <use graficos/RGADICOA13.png>
 Package pdftex.def Info: graficos/RGADICOA13.png  used on input line 57.
 (pdftex.def)             Requested size: 244.51183pt x 235.02646pt.
-<graficos/RGADICOA15.png, id=84, 350.05782pt x 334.24875pt>
+<graficos/RGADICOA15.png, id=86, 350.05782pt x 334.24875pt>
 File: graficos/RGADICOA15.png Graphic file (type png)
 <use graficos/RGADICOA15.png>
 Package pdftex.def Info: graficos/RGADICOA15.png  used on input line 66.
 (pdftex.def)             Requested size: 245.03879pt x 233.97252pt.
- [7 <./graficos/RGADICOA13.png> <./graficos/RGADICOA15.png>]
-<graficos/RGADICOA17.png, id=94, 353.06906pt x 337.26pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[7 <./graficos/RGADICOA11.png> <./graficos/RGADICOA13.png>]
+<graficos/RGADICOA17.png, id=96, 353.06906pt x 337.26pt>
 File: graficos/RGADICOA17.png Graphic file (type png)
 <use graficos/RGADICOA17.png>
 Package pdftex.def Info: graficos/RGADICOA17.png  used on input line 75.
 (pdftex.def)             Requested size: 247.14665pt x 236.08038pt.
-<graficos/RGADICOA19.png, id=95, 354.57469pt x 334.24875pt>
+<graficos/RGADICOA19.png, id=97, 354.57469pt x 334.24875pt>
 File: graficos/RGADICOA19.png Graphic file (type png)
 <use graficos/RGADICOA19.png>
 Package pdftex.def Info: graficos/RGADICOA19.png  used on input line 84.
 (pdftex.def)             Requested size: 248.20059pt x 233.97252pt.
-) [8 <./graficos/RGADICOA17.png> <./graficos/RGADICOA19.png>] (tabelas/tabela2.
-tex
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [8 <./graficos/RGADICOA15.png> <./graficos/RGADICOA17.png>]
+(tabelas/tabela2.tex
 Overfull \hbox (28.59927pt too wide) in paragraph at lines 4--39
  [][] 
  []
 
-)) [9] (Rel9_G5.aux)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+)) [9 <./graficos/RGADICOA19.png>] [10] (Rel9_G5.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -1287,10 +1310,10 @@ Package rerunfilecheck Info: File `Rel9_G5.out' has not changed.
 (rerunfilecheck)             Checksum: 0247DCA243A5162E06578B91BB4477BD;489.
  ) 
 Here is how much of TeX's memory you used:
- 39135 strings out of 475248
- 906310 string characters out of 5757813
- 1946785 words of memory out of 5000000
- 60033 multiletter control sequences out of 15000+600000
+ 39140 strings out of 475248
+ 906433 string characters out of 5757813
+ 1945785 words of memory out of 5000000
+ 60037 multiletter control sequences out of 15000+600000
  564070 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,9n,89p,744b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1298,15 +1321,18 @@ Here is how much of TeX's memory you used:
 1000.pk><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx10.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmbx12.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmmi10.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/shumy/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/shumy/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/shumy/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/shu
-my/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Rel9_G5.pdf (9 pages, 266979 bytes).
+ype1/public/amsfonts/cm/cmex10.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/shumy/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/shumy/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/shumy/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/s
+humy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/
+Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10
+.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmsy7.pfb>
+Output written on Rel9_G5.pdf (10 pages, 292828 bytes).
 PDF statistics:
- 158 PDF objects out of 1000 (max. 8388607)
- 29 named destinations out of 1000 (max. 500000)
+ 172 PDF objects out of 1000 (max. 8388607)
+ 30 named destinations out of 1000 (max. 500000)
  113 words of extra memory for PDF output out of 10000 (max. 10000000)
 

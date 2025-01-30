@@ -22,7 +22,29 @@ O gerador de funções do Elvis é configurado para gerar uma onda triangular co
 Gráfico 1: Onda Triangular
 \end{center}
 
+%grafico do teorico
+
 %calculo da serie de fourier da triangular
+Agora, sabendo que 
+
+\begin{equation*}
+v_0(t)=\left\{
+\begin{array}{lr}
+1+4f_0t,\hspace{10pt} -\frac{T}{2}<t\leq0\\
+1-4f_0t,\hspace{10pt} 0<t\leq\frac{T}{2}
+\end{array}\right.
+\end{equation*}
+
+com $f_0=1kHz$ e que a sua série de Fourier é
+
+\begin{equation*}
+v_0(t)=
+\begin{array}{lr}
+\sum\limits_{m=1}^\infty A_m cos (2\pi(2m-1)f_0t)
+\end{array}
+\end{equation*}
+
+%calculo Am
 
 Em seguida, vamos calcular a resposta do sistema para os harmônicos de frequências 1, 3, 5, 7, 9, 11, 13, 15, 17 e 19 kHz.
 
@@ -37,4 +59,9 @@ Desses gráficos são extraídas as informações da Tabela 2.
 
 \input{tabelas/tabela2}
 
-blablabla
+Agora, com esses valores e o $A_m$, será calculado $\hat{v_1}(t)$ com os valores teóricos e medidos, considerando que 
+
+\[\hat{v_1}(t)=\sum\limits_{m=1}^{10}A_m|V_1((2m-1)f_0|cos(2\pi(2m-1)f_0t+\phi(V_1((2m-1)f_0)))\]
+
+com $f_0=1kHz, |V_1(f)|$ a amplitude de $v_1$ na frequência $f$ e $phi(V_1(f))$ a fase de $v_1$ em relação a $v_0$ nesse mesmo caso.
+
