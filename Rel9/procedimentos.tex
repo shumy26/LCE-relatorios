@@ -22,7 +22,7 @@ O gerador de funções do Elvis é configurado para gerar uma onda triangular co
 Gráfico 1: Onda Triangular
 \end{center}
 
-%grafico do teorico
+
 
 %calculo da serie de fourier da triangular
 Agora, sabendo que 
@@ -44,11 +44,43 @@ v_0(t)=
 \end{array}
 \end{equation*}
 
-%calculo Am
+%calculo Ambah 
+Nota-se que 
+\[a_n=\frac{2}{T}\int\limits_0^\frac{T}{2}\left(1-4\frac{t}{T}\right)cos\left(2\frac{\pi nt}{T}\right)dt+\frac{2}{T}\int\limits_{-\frac{T}{2}}^0\left(\left(1+4\frac{t}{T}\right)cos\left(2\frac{\pi nt}{T}\right)\right)dt\]
+
+Resolvendo essa expressão, temos $a_n=\frac{4-4cos(\pi n)}{\pi^2n^2}$
+
+\[b_n=\frac{2}{T}\int\limits_0^\frac{T}{2}\left(1-4\frac{t}{T}\right)sin\left(2\frac{\pi nt}{T}\right)dt+\frac{2}{T}\int\limits_{-\frac{T}{2}}^0\left(\left(1+4\frac{t}{T}\right)sin\left(2\frac{\pi nt}{T}\right)\right)dt\]
+
+Resolvendo a expressão, obtém-se que $b_n=0$
+
+Sabemos que $A_n=\sqrt{a_n^2+b_n^2}$, com $b_n=0$
+
+Além disso, 
+
+\begin{align*}
+a_0&=\frac{1}{T}\left(\int\limits_0^{\frac{T}{2}}1-4f_0tdt+\int\limits^0_{-\frac{T}{2}}1+4f_0tdt\right)=\\
+&=\frac{1}{T}\left(T+\int\limits_0^{\frac{T}{2}}4f_0tdt-\int\limits^0_{-\frac{T}{2}}4f_0tdt\right)=\\
+&=\frac{1}{T}\left(T-\frac{T}{2}-\frac{T}{2}\right)=0
+\end{align*}
+
+Assim, a Fourier fica 
+\[v_0(t)=\sum\limits_{m=1}^\infty \left(\frac{4-4cos(\pi\cdot(2m-1))}{\pi^2(2m-1)^2} cos (2\pi(2m-1)1000t)\right)\]
+
+Segue a Figura 2 para mostrar $v_0(t)$
+
+\begin{center}\hspace{-30pt}$v_0$\end{center}
+\begin{table}[h]
+\centering
+\includegraphics[scale=0.4]{figuras/fourier-teorica}
+\end{table}\vspace{-6.75cm}\marginpar{\textbf{$t$}}\vspace{6.75cm}
+\begin{center}
+Figura 2: Fourier de $v_0(t)$
+\end{center}
 
 Em seguida, vamos calcular a resposta do sistema para os harmônicos de frequências 1, 3, 5, 7, 9, 11, 13, 15, 17 e 19 kHz.
 
-%calculo
+Fazendo divisor de tensão, obtemos que $v_1=-\frac{j}{\omega10^{-7}}\cdot(\frac{1}{1000}+j\omega10^{-7})$ e para cada frequência é calculado o valor que está na Tabela 2.
 
 Agora experimentalmente são medidas as mesmas respostas, que seguem nos Gráficos 2 a 11. 
 
@@ -63,5 +95,31 @@ Agora, com esses valores e o $A_m$, será calculado $\hat{v_1}(t)$ com os valore
 
 \[\hat{v_1}(t)=\sum\limits_{m=1}^{10}A_m|V_1((2m-1)f_0|cos(2\pi(2m-1)f_0t+\phi(V_1((2m-1)f_0)))\]
 
-com $f_0=1kHz, |V_1(f)|$ a amplitude de $v_1$ na frequência $f$ e $phi(V_1(f))$ a fase de $v_1$ em relação a $v_0$ nesse mesmo caso.
+com $f_0=1kHz, |V_1(f)|$ a amplitude de $v_1$ na frequência $f$ e $\phi(V_1(f))$ a fase de $v_1$ em relação a $v_0$ nesse mesmo caso.
+
+Assim, 
+
+\[\hat{v_1}(t)=\sum\limits_{m=1}^{10} \frac{4-4cos(\pi\cdot(2m-1))}{\pi^2(2m-1)^2} |V_1((2m-1)1000|cos(2\pi(2m-1)1000t+\phi(V_1((2m-1)1000)))\]
+
+Seguem o Gráfico 12 e o Gráfico 13 para $\hat{v_1}$ com os valores calculados e medidos.
+
+\begin{center}$\hat{v_1}$\end{center}
+\begin{table}[h]
+\centering
+\includegraphics[scale=0.4]{figuras/v1-valores_calculados}
+\end{table}\vspace{-6cm}\marginpar{\textbf{$t$}}\vspace{6cm}
+\begin{center}
+Gráfico 12: $\hat{v_1}$ com os valores calculados
+\end{center}
+
+\newpage
+\begin{center}$\hat{v_1}$\end{center}
+\begin{table}[h]
+\centering
+\includegraphics[scale=0.4]{figuras/v1-valores_medidos}
+\end{table}\vspace{-6cm}\marginpar{\textbf{$t$}}\vspace{6cm}
+\begin{center}
+Gráfico 13: $\hat{v_1}$ com os valores medidos
+\end{center}
+
 

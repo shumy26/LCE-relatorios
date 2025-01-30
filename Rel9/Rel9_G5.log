@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.28)  29 JAN 2025 21:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.9.28)  29 JAN 2025 23:58
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1192,13 +1192,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--69
 [1
 
 {C:/Users/shumy/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 81.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 82.
 
 
 (C:\Users\shumy\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 81.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 82.
 
 
 (C:\Users\shumy\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
@@ -1216,92 +1216,89 @@ File: graficos/rgadicoa1-triangulo.png Graphic file (type png)
 Package pdftex.def Info: graficos/rgadicoa1-triangulo.png  used on input line 1
 9.
 (pdftex.def)             Requested size: 280.64886pt x 272.21736pt.
- [3 <./figuras/figura1.jpg> <./graficos/rgadicoa1-triangulo.png>] (parededegraf
-icos.tex
-<graficos/RGADICOA1.png, id=53, 350.81062pt x 338.01282pt>
+ [3 <./figuras/figura1.jpg> <./graficos/rgadicoa1-triangulo.png>] [4]
+<figuras/fourier-teorica.png, id=63, 803.0pt x 803.0pt>
+File: figuras/fourier-teorica.png Graphic file (type png)
+<use figuras/fourier-teorica.png>
+Package pdftex.def Info: figuras/fourier-teorica.png  used on input line 75.
+(pdftex.def)             Requested size: 321.1943pt x 321.1943pt.
+ (parededegraficos.tex [5 <./figuras/fourier-teorica.png>]
+<graficos/RGADICOA1.png, id=71, 350.81062pt x 338.01282pt>
 File: graficos/RGADICOA1.png Graphic file (type png)
 <use graficos/RGADICOA1.png>
 Package pdftex.def Info: graficos/RGADICOA1.png  used on input line 3.
 (pdftex.def)             Requested size: 245.56575pt x 236.60735pt.
-<graficos/RGADICOA3.png, id=54, 353.82187pt x 337.26pt>
+<graficos/RGADICOA3.png, id=72, 353.82187pt x 337.26pt>
 File: graficos/RGADICOA3.png Graphic file (type png)
 <use graficos/RGADICOA3.png>
 Package pdftex.def Info: graficos/RGADICOA3.png  used on input line 12.
 (pdftex.def)             Requested size: 247.67361pt x 236.08038pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[4 <./graficos/RGADICOA1.png>]
-<graficos/RGADICOA5.png, id=65, 353.82187pt x 335.75438pt>
+ [6 <./graficos/RGADICOA1.png> <./graficos/RGADICOA3.png>]
+<graficos/RGADICOA5.png, id=81, 353.82187pt x 335.75438pt>
 File: graficos/RGADICOA5.png Graphic file (type png)
 <use graficos/RGADICOA5.png>
 Package pdftex.def Info: graficos/RGADICOA5.png  used on input line 21.
 (pdftex.def)             Requested size: 247.67361pt x 235.02646pt.
-<graficos/RGADICOA7.png, id=66, 351.56343pt x 332.74312pt>
+<graficos/RGADICOA7.png, id=82, 351.56343pt x 332.74312pt>
 File: graficos/RGADICOA7.png Graphic file (type png)
 <use graficos/RGADICOA7.png>
 Package pdftex.def Info: graficos/RGADICOA7.png  used on input line 30.
 (pdftex.def)             Requested size: 246.09271pt x 232.91858pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[5 <./graficos/RGADICOA3.png> <./graficos/RGADICOA5.png>]
-<graficos/RGADICOA9.png, id=75, 350.05782pt x 332.74312pt>
+[7 <./graficos/RGADICOA5.png> <./graficos/RGADICOA7.png>]
+<graficos/RGADICOA9.png, id=92, 350.05782pt x 332.74312pt>
 File: graficos/RGADICOA9.png Graphic file (type png)
 <use graficos/RGADICOA9.png>
 Package pdftex.def Info: graficos/RGADICOA9.png  used on input line 39.
 (pdftex.def)             Requested size: 245.03879pt x 232.91858pt.
-<graficos/RGADICOA11.png, id=76, 347.04657pt x 334.24875pt>
+<graficos/RGADICOA11.png, id=93, 347.04657pt x 334.24875pt>
 File: graficos/RGADICOA11.png Graphic file (type png)
 <use graficos/RGADICOA11.png>
 Package pdftex.def Info: graficos/RGADICOA11.png  used on input line 48.
 (pdftex.def)             Requested size: 242.93094pt x 233.97252pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[6 <./graficos/RGADICOA7.png> <./graficos/RGADICOA9.png>]
-<graficos/RGADICOA13.png, id=85, 349.305pt x 335.75438pt>
+ [8 <./graficos/RGADICOA9.png> <./graficos/RGADICOA11.png>]
+<graficos/RGADICOA13.png, id=102, 349.305pt x 335.75438pt>
 File: graficos/RGADICOA13.png Graphic file (type png)
 <use graficos/RGADICOA13.png>
 Package pdftex.def Info: graficos/RGADICOA13.png  used on input line 57.
 (pdftex.def)             Requested size: 244.51183pt x 235.02646pt.
-<graficos/RGADICOA15.png, id=86, 350.05782pt x 334.24875pt>
+<graficos/RGADICOA15.png, id=103, 350.05782pt x 334.24875pt>
 File: graficos/RGADICOA15.png Graphic file (type png)
 <use graficos/RGADICOA15.png>
 Package pdftex.def Info: graficos/RGADICOA15.png  used on input line 66.
 (pdftex.def)             Requested size: 245.03879pt x 233.97252pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[7 <./graficos/RGADICOA11.png> <./graficos/RGADICOA13.png>]
-<graficos/RGADICOA17.png, id=96, 353.06906pt x 337.26pt>
+ [9 <./graficos/RGADICOA13.png> <./graficos/RGADICOA15.png>]
+<graficos/RGADICOA17.png, id=112, 353.06906pt x 337.26pt>
 File: graficos/RGADICOA17.png Graphic file (type png)
 <use graficos/RGADICOA17.png>
 Package pdftex.def Info: graficos/RGADICOA17.png  used on input line 75.
 (pdftex.def)             Requested size: 247.14665pt x 236.08038pt.
-<graficos/RGADICOA19.png, id=97, 354.57469pt x 334.24875pt>
+<graficos/RGADICOA19.png, id=113, 354.57469pt x 334.24875pt>
 File: graficos/RGADICOA19.png Graphic file (type png)
 <use graficos/RGADICOA19.png>
 Package pdftex.def Info: graficos/RGADICOA19.png  used on input line 84.
 (pdftex.def)             Requested size: 248.20059pt x 233.97252pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [8 <./graficos/RGADICOA15.png> <./graficos/RGADICOA17.png>]
-(tabelas/tabela2.tex
+) [10 <./graficos/RGADICOA17.png> <./graficos/RGADICOA19.png>] (tabelas/tabela2
+.tex
 Overfull \hbox (28.59927pt too wide) in paragraph at lines 4--39
  [][] 
  []
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-)) [9 <./graficos/RGADICOA19.png>] [10] (Rel9_G5.aux)
+) [11]
+<figuras/v1-valores_calculados.png, id=127, 803.0pt x 803.0pt>
+File: figuras/v1-valores_calculados.png Graphic file (type png)
+<use figuras/v1-valores_calculados.png>
+Package pdftex.def Info: figuras/v1-valores_calculados.png  used on input line 
+109.
+(pdftex.def)             Requested size: 321.1943pt x 321.1943pt.
+ [12 <./figuras/v1-valores_calculados.png>]
+<figuras/v1-valores_medidos.png, id=134, 803.0pt x 803.0pt>
+File: figuras/v1-valores_medidos.png Graphic file (type png)
+<use figuras/v1-valores_medidos.png>
+Package pdftex.def Info: figuras/v1-valores_medidos.png  used on input line 119
+.
+(pdftex.def)             Requested size: 321.1943pt x 321.1943pt.
+) [13 <./figuras/v1-valores_medidos.png>] (Rel9_G5.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -1310,29 +1307,32 @@ Package rerunfilecheck Info: File `Rel9_G5.out' has not changed.
 (rerunfilecheck)             Checksum: 0247DCA243A5162E06578B91BB4477BD;489.
  ) 
 Here is how much of TeX's memory you used:
- 39140 strings out of 475248
- 906433 string characters out of 5757813
- 1945785 words of memory out of 5000000
- 60037 multiletter control sequences out of 15000+600000
+ 39181 strings out of 475248
+ 907740 string characters out of 5757813
+ 1948785 words of memory out of 5000000
+ 60072 multiletter control sequences out of 15000+600000
  564070 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,9n,89p,744b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 83i,10n,89p,744b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\shumy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1000.pk><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx10.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmbx12.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmex10.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTe
 X/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/shumy/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/shumy/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/shumy/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/s
-humy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/
-Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmsy7.pfb>
-Output written on Rel9_G5.pdf (10 pages, 292828 bytes).
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/shumy/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/shumy/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/s
+humy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
+/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.
+pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmr7.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmsy5.pfb><C:/Users/shumy/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on Rel9_G5.pdf (13 pages, 420170 bytes).
 PDF statistics:
- 172 PDF objects out of 1000 (max. 8388607)
- 30 named destinations out of 1000 (max. 500000)
- 113 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 210 PDF objects out of 1000 (max. 8388607)
+ 36 named destinations out of 1000 (max. 500000)
+ 128 words of extra memory for PDF output out of 10000 (max. 10000000)
 
